@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "z/pjk0pLxxZlpgcCV1jx3exITeH246VRCgoBvMA3zpc=",
+  "Source": "ERP-Backend",
+  "BasePath": "_content/ERP-Backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
