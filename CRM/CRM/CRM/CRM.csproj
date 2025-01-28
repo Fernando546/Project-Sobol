@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{26825B89-1028-42CE-94CF-8C46BE4AA285}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CRM</RootNamespace>
+    <AssemblyName>CRM</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enums\ContractTypes.cs" />
+    <Compile Include="Enums\EventTypes.cs" />
+    <Compile Include="Helpers\DataBaseInteraction\Clients\AddClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helpers\DataBaseInteraction\Clients\AddClient.Designer.cs">
+      <DependentUpon>AddClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\DataBaseInteraction\Clients\RemoveClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helpers\DataBaseInteraction\Clients\RemoveClient.Designer.cs">
+      <DependentUpon>RemoveClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\DataBaseInteraction\Contracts\AddContract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helpers\DataBaseInteraction\Contracts\AddContract.Designer.cs">
+      <DependentUpon>AddContract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\DataBaseInteraction\Contracts\RemoveContract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helpers\DataBaseInteraction\Contracts\RemoveContract.Designer.cs">
+      <DependentUpon>RemoveContract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\DataBaseInteraction\DataBaseGetter.cs" />
+    <Compile Include="Helpers\DataBaseInteraction\Employees\AddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helpers\DataBaseInteraction\Employees\AddUser.Designer.cs">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\DataBaseInteraction\Employees\RemoveUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helpers\DataBaseInteraction\Employees\RemoveUser.Designer.cs">
+      <DependentUpon>RemoveUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\DataBaseInteraction\Events\AddEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helpers\DataBaseInteraction\Events\AddEvent.Designer.cs">
+      <DependentUpon>AddEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\DataBaseInteraction\Events\RemoveEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helpers\DataBaseInteraction\Events\RemoveEvent.Designer.cs">
+      <DependentUpon>RemoveEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\DataBaseInteraction\Products\AddProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helpers\DataBaseInteraction\Products\AddProducts.Designer.cs">
+      <DependentUpon>AddProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\DataBaseInteraction\Products\RemoveProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helpers\DataBaseInteraction\Products\RemoveProducts.Designer.cs">
+      <DependentUpon>RemoveProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\DatabaseObjects\Clients.cs" />
+    <Compile Include="Helpers\DatabaseObjects\Contracts.cs" />
+    <Compile Include="Helpers\DatabaseObjects\Employees.cs" />
+    <Compile Include="Helpers\DatabaseObjects\Events.cs" />
+    <Compile Include="Helpers\DatabaseObjects\Products.cs" />
+    <Compile Include="Helpers\LoginData.cs" />
+    <Compile Include="Helpers\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helpers\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\UserControls\LoginControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Helpers\UserControls\LoginControl.Designer.cs">
+      <DependentUpon>LoginControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\UserControls\ContractManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Helpers\UserControls\ContractManager.Designer.cs">
+      <DependentUpon>ContractManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\UserControls\ClientManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Helpers\UserControls\ClientManager.Designer.cs">
+      <DependentUpon>ClientManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\UserControls\EventManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Helpers\UserControls\EventManager.Designer.cs">
+      <DependentUpon>EventManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\UserControls\ProductManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Helpers\UserControls\ProductManager.Designer.cs">
+      <DependentUpon>ProductManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\UserControls\UserManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Helpers\UserControls\UserManager.Designer.cs">
+      <DependentUpon>UserManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Helpers\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helpers\UserControls\ClientManager.resx">
+      <DependentUpon>ClientManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helpers\UserControls\EventManager.resx">
+      <DependentUpon>EventManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helpers\UserControls\LoginControl.resx">
+      <DependentUpon>LoginControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helpers\UserControls\ContractManager.resx">
+      <DependentUpon>ContractManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helpers\UserControls\ProductManager.resx">
+      <DependentUpon>ProductManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helpers\UserControls\UserManager.resx">
+      <DependentUpon>UserManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\DataSources\CRM.Helpers.DatabaseObjects.Clients.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

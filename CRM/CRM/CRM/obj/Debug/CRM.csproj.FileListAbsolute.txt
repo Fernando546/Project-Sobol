@@ -1,0 +1,17 @@
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\bin\Debug\CRM.exe.config
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\bin\Debug\CRM.exe
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\bin\Debug\CRM.pdb
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.Helpers.LoginForm.resources
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.Main.resources
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.Properties.Resources.resources
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.exe
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.pdb
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.Helpers.LoginControl.resources
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.Helpers.UserControls.ContractManager.resources
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.Helpers.UserControls.ClientManager.resources
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.Helpers.UserControls.EventManager.resources
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.Helpers.UserControls.ProductManager.resources
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.Helpers.UserControls.UserManager.resources

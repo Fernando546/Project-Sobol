@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\Backend\\ERP-Backend\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29924FDC-F7BA-4A3C-9527-340648DACEB5}|ERP-Backend\\ERP-Backend.csproj|c:\\users\\admin\\source\\repos\\project-sobol\\backend\\erp-backend\\erp-backend\\salesrep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29924FDC-F7BA-4A3C-9527-340648DACEB5}|ERP-Backend\\ERP-Backend.csproj|solutionrelative:erp-backend\\salesrep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29924FDC-F7BA-4A3C-9527-340648DACEB5}|ERP-Backend\\ERP-Backend.csproj|c:\\users\\admin\\source\\repos\\project-sobol\\backend\\erp-backend\\erp-backend\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29924FDC-F7BA-4A3C-9527-340648DACEB5}|ERP-Backend\\ERP-Backend.csproj|solutionrelative:erp-backend\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29924FDC-F7BA-4A3C-9527-340648DACEB5}|ERP-Backend\\ERP-Backend.csproj|c:\\users\\admin\\source\\repos\\project-sobol\\backend\\erp-backend\\erp-backend\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29924FDC-F7BA-4A3C-9527-340648DACEB5}|ERP-Backend\\ERP-Backend.csproj|solutionrelative:erp-backend\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +31,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SalesRep.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\Backend\\ERP-Backend\\ERP-Backend\\SalesRep.cs",
+              "RelativeDocumentMoniker": "ERP-Backend\\SalesRep.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\Backend\\ERP-Backend\\ERP-Backend\\SalesRep.cs",
+              "RelativeToolTip": "ERP-Backend\\SalesRep.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T10:59:24.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\Backend\\ERP-Backend\\ERP-Backend\\Manager.cs",
+              "RelativeDocumentMoniker": "ERP-Backend\\Manager.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\Backend\\ERP-Backend\\ERP-Backend\\Manager.cs",
+              "RelativeToolTip": "ERP-Backend\\Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T10:58:33.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\Backend\\ERP-Backend\\ERP-Backend\\Product.cs",
+              "RelativeDocumentMoniker": "ERP-Backend\\Product.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\Backend\\ERP-Backend\\ERP-Backend\\Product.cs*",
+              "RelativeToolTip": "ERP-Backend\\Product.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T10:56:13.71Z",
+              "EditorCaption": ""
             }
           ]
         }
