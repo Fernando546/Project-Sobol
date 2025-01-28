@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Employee = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -45,15 +44,6 @@
             this.CMBX_Clients = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(424, 189);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 16);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "contract";
             // 
             // dataGridView1
             // 
@@ -186,6 +176,7 @@
             this.CMBX_Clients.Name = "CMBX_Clients";
             this.CMBX_Clients.Size = new System.Drawing.Size(62, 24);
             this.CMBX_Clients.TabIndex = 10;
+            this.CMBX_Clients.SelectionChangeCommitted += new System.EventHandler(this.CMBX_Clients_SelectionChangeCommitted);
             // 
             // ContractManager
             // 
@@ -195,18 +186,14 @@
             this.Controls.Add(this.BTN_Add);
             this.Controls.Add(this.BTN_Remove);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.label1);
             this.Name = "ContractManager";
             this.Size = new System.Drawing.Size(1171, 565);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn Employee;

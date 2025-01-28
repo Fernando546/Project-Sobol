@@ -16,5 +16,15 @@ namespace CRM.Helpers.DataBaseInteraction.Events
         {
             InitializeComponent();
         }
+
+        private void BTN_Cancel_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void BTN_Add_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

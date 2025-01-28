@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this._Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -44,15 +43,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.clientsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.clientsBindingSource1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(216, 123);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Client";
             // 
             // dataGridView1
             // 
@@ -148,20 +138,16 @@
             this.Controls.Add(this.BTN_Remove);
             this.Controls.Add(this.BTN_Add);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.label1);
             this.Name = "ClientManager";
             this.Size = new System.Drawing.Size(861, 460);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.clientsBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.clientsBindingSource1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.BindingSource clientsBindingSource;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.BindingSource clientsBindingSource1;

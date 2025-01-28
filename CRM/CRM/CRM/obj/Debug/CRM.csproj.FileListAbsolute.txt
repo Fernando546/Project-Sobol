@@ -15,3 +15,13 @@ C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.Helpers.User
 C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.Helpers.UserControls.EventManager.resources
 C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.Helpers.UserControls.ProductManager.resources
 C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.Helpers.UserControls.UserManager.resources
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.Helpers.DataBaseInteraction.Clients.AddClient.resources
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.Helpers.DataBaseInteraction.Clients.RemoveClient.resources
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.Helpers.DataBaseInteraction.Contracts.AddContract.resources
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.Helpers.DataBaseInteraction.Contracts.RemoveContract.resources
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.Helpers.DataBaseInteraction.Users.AddUser.resources
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.Helpers.DataBaseInteraction.Users.RemoveUser.resources
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.Helpers.DataBaseInteraction.Events.AddEvent.resources
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.Helpers.DataBaseInteraction.Events.RemoveEvent.resources
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.Helpers.DataBaseInteraction.Products.AddProducts.resources
+C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.Helpers.DataBaseInteraction.Products.RemoveProducts.resources

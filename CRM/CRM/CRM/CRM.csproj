@@ -165,6 +165,36 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Helpers\DataBaseInteraction\Clients\AddClient.resx">
+      <DependentUpon>AddClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helpers\DataBaseInteraction\Clients\RemoveClient.resx">
+      <DependentUpon>RemoveClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helpers\DataBaseInteraction\Contracts\AddContract.resx">
+      <DependentUpon>AddContract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helpers\DataBaseInteraction\Contracts\RemoveContract.resx">
+      <DependentUpon>RemoveContract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helpers\DataBaseInteraction\Employees\AddUser.resx">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helpers\DataBaseInteraction\Employees\RemoveUser.resx">
+      <DependentUpon>RemoveUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helpers\DataBaseInteraction\Events\AddEvent.resx">
+      <DependentUpon>AddEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helpers\DataBaseInteraction\Events\RemoveEvent.resx">
+      <DependentUpon>RemoveEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helpers\DataBaseInteraction\Products\AddProducts.resx">
+      <DependentUpon>AddProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helpers\DataBaseInteraction\Products\RemoveProducts.resx">
+      <DependentUpon>RemoveProducts.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Helpers\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>

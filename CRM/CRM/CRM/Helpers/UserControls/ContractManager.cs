@@ -2,6 +2,7 @@
 using CRM.Helpers.DataBaseInteraction.Contracts;
 using CRM.Helpers.DataBaseInteraction.Events;
 using CRM.Helpers.DatabaseObjects;
+using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
@@ -78,6 +79,11 @@ namespace CRM.Helpers.UserControls
                     //dodawanie do tabeli
                 }
             }
+        }
+
+        private void CMBX_Clients_SelectionChangeCommitted(object sender, System.EventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }

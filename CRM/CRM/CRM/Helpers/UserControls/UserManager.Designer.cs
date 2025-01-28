@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.IsAdmin = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -38,15 +37,6 @@
             this.BTN_Add = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(472, 214);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 16);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "users";
             // 
             // dataGridView1
             // 
@@ -58,7 +48,7 @@
             this.IsAdmin,
             this.Username,
             this.Password});
-            this.dataGridView1.Location = new System.Drawing.Point(56, 102);
+            this.dataGridView1.Location = new System.Drawing.Point(67, 98);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
@@ -125,18 +115,14 @@
             this.Controls.Add(this.BTN_Add);
             this.Controls.Add(this.BTN_Remove);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.label1);
             this.Name = "UserManager";
             this.Size = new System.Drawing.Size(984, 444);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn IsAdmin;

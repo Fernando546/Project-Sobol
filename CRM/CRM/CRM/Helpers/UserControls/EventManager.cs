@@ -81,5 +81,10 @@ namespace CRM.Helpers.UserControls
                 }
             }
         }
+
+        private void CMBX_Clients_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

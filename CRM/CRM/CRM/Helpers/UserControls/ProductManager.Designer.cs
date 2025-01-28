@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ContractID = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -42,15 +41,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(350, 185);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 16);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "product";
-            // 
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToAddRows = false;
@@ -63,7 +53,7 @@
             this.Price,
             this.Type,
             this.Count});
-            this.dataGridView1.Location = new System.Drawing.Point(160, 158);
+            this.dataGridView1.Location = new System.Drawing.Point(120, 189);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
@@ -146,6 +136,7 @@
             this.CMBX_Contracts.Name = "CMBX_Contracts";
             this.CMBX_Contracts.Size = new System.Drawing.Size(62, 24);
             this.CMBX_Contracts.TabIndex = 8;
+            this.CMBX_Contracts.SelectionChangeCommitted += new System.EventHandler(this.CMBX_Contracts_SelectionChangeCommitted);
             // 
             // ProductManager
             // 
@@ -155,18 +146,14 @@
             this.Controls.Add(this.BTN_Add);
             this.Controls.Add(this.BTN_Remove);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.label1);
             this.Name = "ProductManager";
             this.Size = new System.Drawing.Size(1109, 501);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn ContractID;

@@ -16,5 +16,17 @@ namespace CRM.Helpers.DataBaseInteraction.Contracts
         {
             InitializeComponent();
         }
+
+        private void BTN_Cancel_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void BTN_Add_Click(object sender, EventArgs e)
+        {
+            //jak w add client
+            //koszty z produktow bazowo 0
+            //client i type z kombo
+        }
     }
 }
