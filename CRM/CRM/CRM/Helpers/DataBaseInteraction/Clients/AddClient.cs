@@ -68,7 +68,7 @@ namespace CRM.Helpers.DataBaseInteraction.Clients
             {
                 DateTime.ParseExact(date, "yyyy-MM-dd", CultureInfo.InvariantCulture);
             }
-            catch(Exception e)
+            catch
             {
                 return false;
             }

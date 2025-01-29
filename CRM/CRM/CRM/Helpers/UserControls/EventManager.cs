@@ -112,7 +112,7 @@ namespace CRM.Helpers.UserControls
             switch (parsedType)
             {
                 case EventTypes.DissolutionOfContract:
-                    return "Breach of contract";
+                    return "Dissolution of contract";
 
                 case EventTypes.ContractPreeleminaryArrangement:
                     return "Preeliminary contract arrangement";

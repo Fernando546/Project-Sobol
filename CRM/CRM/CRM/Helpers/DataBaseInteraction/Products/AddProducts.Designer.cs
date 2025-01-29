@@ -52,6 +52,7 @@
             this.BTN_Add.TabIndex = 3;
             this.BTN_Add.Text = "Add Product";
             this.BTN_Add.UseVisualStyleBackColor = false;
+            this.BTN_Add.Click += new System.EventHandler(this.BTN_Add_Click);
             // 
             // BTN_Cancel
             // 
@@ -61,6 +62,7 @@
             this.BTN_Cancel.TabIndex = 4;
             this.BTN_Cancel.Text = "Cancel";
             this.BTN_Cancel.UseVisualStyleBackColor = true;
+            this.BTN_Cancel.Click += new System.EventHandler(this.BTN_Cancel_Click);
             // 
             // CMBX_Contracts
             // 
