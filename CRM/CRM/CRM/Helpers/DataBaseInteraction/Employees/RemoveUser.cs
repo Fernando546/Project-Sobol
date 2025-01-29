@@ -25,11 +25,37 @@ namespace CRM.Helpers.DataBaseInteraction.Users
 
         private void BTN_Remove_Click(object sender, EventArgs e)
         {
-            //popup czy na pewno
-            if (true)
+            string userID = TXTB_ID.Text.Trim();
+
+            if (string.IsNullOrWhiteSpace(userID))
             {
-                //sql query
+                MessageBox.Show("User ID cannot be empty");
+                return;
             }
+
+            if (!int.TryParse(userID, out int numericUserID) || numericUserID <= 0)
+            {
+                MessageBox.Show("User ID must be a valid positive number");
+                return;
+            }
+
+            var confirmResult = MessageBox.Show(
+                $"Are you sure you want to delete user with ID: {numericUserID}?",
+                "Confirm Deletion",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question
+            );
+
+            if (confirmResult == DialogResult.Yes)
+            {
+                DBRemoveQuery(numericUserID);
+                MessageBox.Show("User deleted successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void DBRemoveQuery(int id)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -22,8 +22,10 @@ namespace CRM.Helpers.DataBaseInteraction.Users
             {
                 DatabaseObjects.Employees user = new DatabaseObjects.Employees();
 
+                user.ID = 0; //change
                 user.Username = TXTB_Username.Text;
                 user.Password = TXTB_Password.Text;
+                user.Admin = checkBox1.Checked;
 
                 DBAddQuery(user);
             }

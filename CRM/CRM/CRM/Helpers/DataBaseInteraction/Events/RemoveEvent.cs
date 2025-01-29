@@ -25,11 +25,37 @@ namespace CRM.Helpers.DataBaseInteraction.Events
 
         private void BTN_Remove_Click(object sender, EventArgs e)
         {
-            //popup czy na pewno
-            if (true)
+            string eventID = TXTB_ID.Text.Trim();
+
+            if (string.IsNullOrWhiteSpace(eventID))
             {
-                //sql query
+                MessageBox.Show("Event ID cannot be empty");
+                return;
             }
+
+            if (!int.TryParse(eventID, out int numericEventID) || numericEventID <= 0)
+            {
+                MessageBox.Show("Event ID must be a valid positive number");
+                return;
+            }
+
+            var confirmResult = MessageBox.Show(
+                $"Are you sure you want to delete event with ID: {numericEventID}?",
+                "Confirm Deletion",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question
+            );
+
+            if (confirmResult == DialogResult.Yes)
+            {
+                DBRemoveQuery(numericEventID);
+                MessageBox.Show("Event deleted successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void DBRemoveQuery(int id)
+        {
+            throw new NotImplementedException();
         }
     }
 }
