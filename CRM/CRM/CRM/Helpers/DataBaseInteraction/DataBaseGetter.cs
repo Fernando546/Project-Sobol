@@ -1,6 +1,8 @@
-﻿using System;
+﻿using CRM.Helpers.DatabaseObjects;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Windows.Forms;
 
 namespace CRM.Helpers.DataBaseInteraction
 {
@@ -369,5 +371,33 @@ namespace CRM.Helpers.DataBaseInteraction
             }
             return products;
         }
+
+        internal static int GetMaxID(string table)
+        {
+            int maxID = 0; // Default to 0 if table is empty or an error occurs
+            string query = "SELECT MAX(Id) FROM " + table;
+
+            using (SqlConnection conn = new SqlConnection(Program.DATABASE_SOURCE))
+            using (SqlCommand cmd = new SqlCommand(query, conn))
+            {
+                try
+                {
+                    conn.Open();
+                    object result = cmd.ExecuteScalar();
+
+                    if (result != DBNull.Value)
+                    {
+                        maxID = Convert.ToInt32(result);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error: " + ex.Message);
+                }
+            }
+
+            return maxID;
+        }
+
     }
 }

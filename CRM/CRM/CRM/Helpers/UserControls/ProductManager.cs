@@ -80,6 +80,10 @@ namespace CRM.Helpers.UserControls
                     CMBX_Contracts.Items.Add(contract.Name);
                 }
             }
+            else
+            {
+                MessageBox.Show("Contract has to be selected first");
+            }
         }
 
         internal void QueryDBAndFillTable()

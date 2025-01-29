@@ -67,6 +67,10 @@ namespace CRM.Helpers.UserControls
                     CMBX_Clients.Items.Add(string.Concat(client.ID.ToString(), " ", client.Name));
                 }
             }
+            else
+            {
+                MessageBox.Show("Client has to be selected first");
+            }
         }
 
         internal void QueryDBAndFillTable() //po kliencie i emp
