@@ -318,7 +318,7 @@ namespace CRM.Helpers.DataBaseInteraction
         internal static List<DatabaseObjects.Products> GetProducts()
         {
             List<DatabaseObjects.Products> products = new List<DatabaseObjects.Products>();
-            string query = "SELECT Id, ContractID, Name, Cost, Type, Amount FROM Products";
+            string query = "SELECT Id, ContractID, Name, Price, Type, Count FROM Products";
 
             using (SqlConnection conn = new SqlConnection(Program.DATABASE_SOURCE))
             using (SqlCommand cmd = new SqlCommand(query, conn))
@@ -347,7 +347,7 @@ namespace CRM.Helpers.DataBaseInteraction
         internal static List<DatabaseObjects.Products> GetProductsByContract(int clientID)
         {
             List<DatabaseObjects.Products> products = new List<DatabaseObjects.Products>();
-            string query = "SELECT Id, ContractID, Name, Cost, Type, Amount FROM Products WHERE ContractID = @ClientID";
+            string query = "SELECT Id, ContractID, Name, Price, Type, Count FROM Products WHERE ContractID = @ClientID";
 
             using (SqlConnection conn = new SqlConnection(Program.DATABASE_SOURCE))
             using (SqlCommand cmd = new SqlCommand(query, conn))
