@@ -34,9 +34,26 @@ namespace CRM.Helpers.UserControls
 
         private void BTN_Add_Click(object sender, EventArgs e)
         {
-            var addProduct = new AddProducts();
-            addProduct.ShowDialog();
-            QueryDBAndFillTable();
+            if (CMBX_Contracts.SelectedIndex >= 0 && !CMBX_Contracts.Text.Equals("All"))
+            {
+                AddProducts addProduct;
+
+                if (_isAdmin)
+                {
+                    addProduct = new AddProducts(_contracts[CMBX_Contracts.SelectedIndex - 1]);
+                }
+                else
+                {
+                    addProduct = new AddProducts(_contracts[CMBX_Contracts.SelectedIndex]);
+                }
+
+                addProduct.ShowDialog();
+                QueryDBAndFillTable();
+            }
+            else
+            {
+                MessageBox.Show("Contract has to be selected first");
+            }
         }
 
         private void QueryDBforContracts()
@@ -50,12 +67,10 @@ namespace CRM.Helpers.UserControls
             {
                 _contracts = DataBaseGetter.GetAllContracts();
                 CMBX_Contracts.Items.Add("All");
-                //add all contract option
             }
             else
             {
                 _contracts = DataBaseGetter.GetContractsByUser(_userID);
-                //query for user contracts
             }
 
             if(_contracts != null)
@@ -70,7 +85,6 @@ namespace CRM.Helpers.UserControls
         internal void QueryDBAndFillTable()
         {
             QueryDBforContracts();
-
             FillTable();
         }
 
@@ -84,7 +98,7 @@ namespace CRM.Helpers.UserControls
             if (CMBX_Contracts.SelectedIndex >= 0)
             {
                 List<Products> products;
-                if (CMBX_Contracts.SelectedIndex == 0 && _isAdmin) //all clients is selected
+                if (CMBX_Contracts.SelectedIndex == 0 && _isAdmin)
                 {
                     products = DataBaseGetter.GetProducts();
                 }

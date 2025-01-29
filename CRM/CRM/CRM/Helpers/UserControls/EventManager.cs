@@ -36,9 +36,20 @@ namespace CRM.Helpers.UserControls
 
         private void BTN_Add_Click(object sender, EventArgs e)
         {
-            var addEvent = new AddEvent();
-            addEvent.ShowDialog();
-            QueryDBAndFillTable();
+            if (CMBX_Clients.SelectedIndex >= 0)
+            { 
+                Employees employee = new Employees()
+                {
+                    ID = _userID
+                };
+                var addEvent = new AddEvent(_clients[CMBX_Clients.SelectedIndex],employee);
+                addEvent.ShowDialog();
+                QueryDBAndFillTable();
+            }
+            else
+            {
+                MessageBox.Show("Client has to be selected first");
+            }
         }
 
         private void QueryDBforClients()
@@ -60,10 +71,9 @@ namespace CRM.Helpers.UserControls
             }
         }
 
-        internal void QueryDBAndFillTable() //po kliencie i emp
+        internal void QueryDBAndFillTable()
         {
             QueryDBforClients();
-
             FillTable();
         }
 

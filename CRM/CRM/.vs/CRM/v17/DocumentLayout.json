@@ -1,210 +1,206 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\logincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\logincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\contractmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\contractmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\clientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\clientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseobjects\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseobjects\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\products\\removeproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\products\\removeproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\products\\addproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\products\\addproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\events\\removeevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\events\\removeevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\events\\addevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\events\\addevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\employees\\removeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\employees\\removeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\employees\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\employees\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\contracts\\removecontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\contracts\\removecontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\contracts\\addcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\contracts\\addcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\clients\\removeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\clients\\removeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\clients\\addclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\clients\\addclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\employees\\removeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\employees\\removeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\employees\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\employees\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\clients\\addclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\clients\\addclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|c:\\users\\ferer\\source\\repos\\project-sobol\\crm\\crm\\crm\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\products\\removeproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\products\\removeproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\logindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\logindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\databasegetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\databasegetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseobjects\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseobjects\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\contractmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\contractmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\contractmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\events\\addevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\events\\addevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\contracts\\addcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\contracts\\addcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\clients\\removeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\clients\\removeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\contracts\\removecontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\contracts\\removecontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\events\\removeevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\events\\removeevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\products\\addproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\products\\addproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\employees\\adduser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\employees\\adduser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\clientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\clientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\clients\\removeclient.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\clients\\removeclient.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseobjects\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseobjects\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|c:\\users\\admin\\source\\repos\\project-sobol\\crm\\crm\\crm\\helpers\\usercontrols\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseobjects\\contracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseobjects\\contracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseobjects\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseobjects\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\clientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\clientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\clientmanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\clientmanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\contracts\\addcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\contracts\\addcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\productmanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\productmanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\clients\\addclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\clients\\addclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\contractmanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\contractmanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\events\\addevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\events\\addevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\enums\\eventtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\products\\addproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\products\\addproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\products\\removeproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\products\\removeproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\events\\removeevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\events\\removeevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\employees\\removeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\employees\\removeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\contracts\\removecontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\contracts\\removecontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\clients\\removeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\clients\\removeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\employees\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\employees\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\events\\addevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\events\\addevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\products\\addproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\products\\addproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\contracts\\removecontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\contracts\\removecontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\clients\\removeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\clients\\removeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\contracts\\addcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\contracts\\addcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\clients\\addclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\clients\\addclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\employees\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\employees\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\databasegetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\databasegetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseobjects\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseobjects\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\contractmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\contractmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\enums\\eventtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\enums\\eventtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\enums\\contracttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\enums\\contracttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\enums\\contracttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\clientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\clientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseobjects\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseobjects\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\logincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\logincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\employees\\removeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\employees\\removeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\events\\removeevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\events\\removeevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\products\\removeproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\products\\removeproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\employees\\adduser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\employees\\adduser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseinteraction\\clients\\removeclient.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseinteraction\\clients\\removeclient.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseobjects\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseobjects\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseobjects\\contracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseobjects\\contracts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\databaseobjects\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\databaseobjects\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\logindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\logindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\clientmanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\clientmanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\productmanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\productmanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\crm\\helpers\\usercontrols\\contractmanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26825B89-1028-42CE-94CF-8C46BE4AA285}|CRM\\CRM.csproj|solutionrelative:crm\\helpers\\usercontrols\\contractmanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -214,168 +210,206 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductManager.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ProductManager.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\UserControls\\ProductManager.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ProductManager.cs",
+              "RelativeToolTip": "CRM\\Helpers\\UserControls\\ProductManager.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwDYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T19:52:35.503Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ContractManager.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ContractManager.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\UserControls\\ContractManager.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ContractManager.cs [Design]",
-              "RelativeToolTip": "CRM\\Helpers\\UserControls\\ContractManager.cs [Design]",
+              "Title": "AddContract.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Contracts\\AddContract.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Contracts\\AddContract.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Contracts\\AddContract.cs",
+              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Contracts\\AddContract.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAtwEcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T17:55:16.889Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EventManager.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\EventManager.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\UserControls\\EventManager.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\EventManager.cs [Design]",
-              "RelativeToolTip": "CRM\\Helpers\\UserControls\\EventManager.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:26:41.657Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginControl.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\LoginControl.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\UserControls\\LoginControl.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\LoginControl.cs [Design]",
-              "RelativeToolTip": "CRM\\Helpers\\UserControls\\LoginControl.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T17:32:43.586Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductManager.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ProductManager.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\UserControls\\ProductManager.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ProductManager.cs [Design]",
-              "RelativeToolTip": "CRM\\Helpers\\UserControls\\ProductManager.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:21:17.164Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserManager.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\UserManager.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\UserControls\\UserManager.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\UserManager.cs [Design]",
-              "RelativeToolTip": "CRM\\Helpers\\UserControls\\UserManager.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:28:45.968Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-01-28T21:56:20.687Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\LoginForm.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\LoginForm.cs [Design]",
-              "RelativeToolTip": "CRM\\Helpers\\LoginForm.cs [Design]",
+              "Title": "ContractManager.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ContractManager.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\UserControls\\ContractManager.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ContractManager.cs",
+              "RelativeToolTip": "CRM\\Helpers\\UserControls\\ContractManager.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T13:51:54.087Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "WhenOpened": "2025-01-28T19:52:27.504Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ClientManager.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ClientManager.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\UserControls\\ClientManager.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ClientManager.cs [Design]",
-              "RelativeToolTip": "CRM\\Helpers\\UserControls\\ClientManager.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\UserManager.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\UserControls\\UserManager.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\UserManager.cs",
+              "RelativeToolTip": "CRM\\Helpers\\UserControls\\UserManager.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:25:43.82Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-01-28T19:52:39.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventManager.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\EventManager.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\UserControls\\EventManager.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\EventManager.cs",
+              "RelativeToolTip": "CRM\\Helpers\\UserControls\\EventManager.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAUwC4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T19:08:28.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RemoveProducts.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Products\\RemoveProducts.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Products\\RemoveProducts.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Products\\RemoveProducts.cs",
+              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Products\\RemoveProducts.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwA8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T21:53:53.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientManager.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ClientManager.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\UserControls\\ClientManager.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ClientManager.cs",
+              "RelativeToolTip": "CRM\\Helpers\\UserControls\\ClientManager.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T19:20:48.124Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Clients.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DatabaseObjects\\Clients.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\DatabaseObjects\\Clients.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DatabaseObjects\\Clients.cs",
-              "RelativeToolTip": "CRM\\Helpers\\DatabaseObjects\\Clients.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Title": "AddEvent.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Events\\AddEvent.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Events\\AddEvent.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Events\\AddEvent.cs",
+              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Events\\AddEvent.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAtwEAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:53:55.293Z",
+              "WhenOpened": "2025-01-28T22:10:05.605Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "RemoveProducts.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Products\\RemoveProducts.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Products\\RemoveProducts.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Products\\RemoveProducts.cs [Design]",
-              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Products\\RemoveProducts.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T19:46:40.467Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AddProducts.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Products\\AddProducts.cs",
+              "Title": "AddProducts.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Products\\AddProducts.cs",
               "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Products\\AddProducts.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Products\\AddProducts.cs [Design]",
-              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Products\\AddProducts.cs [Design]",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Products\\AddProducts.cs",
+              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Products\\AddProducts.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAtwEsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T19:46:25.937Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-01-28T21:54:42.889Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "RemoveEvent.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Events\\RemoveEvent.cs",
+              "Title": "RemoveEvent.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Events\\RemoveEvent.cs",
               "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Events\\RemoveEvent.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Events\\RemoveEvent.cs [Design]",
-              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Events\\RemoveEvent.cs [Design]",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Events\\RemoveEvent.cs",
+              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Events\\RemoveEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T19:46:03.899Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-01-28T21:54:04.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddClient.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Clients\\AddClient.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Clients\\AddClient.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Clients\\AddClient.cs",
+              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Clients\\AddClient.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAtwEYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T22:01:36.725Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "RemoveUser.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Employees\\RemoveUser.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Employees\\RemoveUser.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Employees\\RemoveUser.cs",
+              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Employees\\RemoveUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T21:54:07.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RemoveContract.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Contracts\\RemoveContract.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Contracts\\RemoveContract.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Contracts\\RemoveContract.cs",
+              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Contracts\\RemoveContract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T21:54:11.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RemoveClient.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Clients\\RemoveClient.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Clients\\RemoveClient.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Clients\\RemoveClient.cs",
+              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Clients\\RemoveClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T21:52:29.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddUser.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Employees\\AddUser.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Employees\\AddUser.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Employees\\AddUser.cs",
+              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Employees\\AddUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T22:08:55.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "AddEvent.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Events\\AddEvent.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Events\\AddEvent.cs",
               "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Events\\AddEvent.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Events\\AddEvent.cs [Design]",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Events\\AddEvent.cs [Design]",
               "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Events\\AddEvent.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T19:45:56.026Z",
@@ -383,126 +417,105 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RemoveUser.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Employees\\RemoveUser.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Employees\\RemoveUser.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Employees\\RemoveUser.cs [Design]",
-              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Employees\\RemoveUser.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T19:34:58.662Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AddUser.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Employees\\AddUser.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Employees\\AddUser.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Employees\\AddUser.cs [Design]",
-              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Employees\\AddUser.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T19:34:44.975Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RemoveContract.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Contracts\\RemoveContract.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Contracts\\RemoveContract.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Contracts\\RemoveContract.cs [Design]",
-              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Contracts\\RemoveContract.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T19:45:25.532Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AddContract.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Contracts\\AddContract.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Contracts\\AddContract.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Contracts\\AddContract.cs [Design]",
-              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Contracts\\AddContract.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T19:45:16.416Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "RemoveClient.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Clients\\RemoveClient.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Clients\\RemoveClient.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Clients\\RemoveClient.cs [Design]",
-              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Clients\\RemoveClient.cs [Design]",
+              "Title": "AddProducts.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Products\\AddProducts.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Products\\AddProducts.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Products\\AddProducts.cs [Design]",
+              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Products\\AddProducts.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T21:24:50.071Z",
+              "WhenOpened": "2025-01-28T19:46:25.937Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "AddClient.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Clients\\AddClient.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Clients\\AddClient.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Clients\\AddClient.cs [Design]",
-              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Clients\\AddClient.cs [Design]",
+              "Title": "EventManager.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\EventManager.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\UserControls\\EventManager.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\EventManager.cs [Design]",
+              "RelativeToolTip": "CRM\\Helpers\\UserControls\\EventManager.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T19:44:44.618Z",
+              "WhenOpened": "2025-01-28T18:26:41.657Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "RemoveUser.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Employees\\RemoveUser.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Employees\\RemoveUser.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Employees\\RemoveUser.cs",
-              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Employees\\RemoveUser.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBMAAAAJAAAAAAAAAA==",
+              "Title": "RemoveContract.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Contracts\\RemoveContract.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Contracts\\RemoveContract.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Contracts\\RemoveContract.cs [Design]",
+              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Contracts\\RemoveContract.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T21:54:07.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T19:45:25.532Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "AddUser.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Employees\\AddUser.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Employees\\AddUser.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Employees\\AddUser.cs",
-              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Employees\\AddUser.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Title": "RemoveClient.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Clients\\RemoveClient.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Clients\\RemoveClient.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Clients\\RemoveClient.cs [Design]",
+              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Clients\\RemoveClient.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T22:08:55.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T21:24:50.071Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "AddClient.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Clients\\AddClient.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Clients\\AddClient.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Clients\\AddClient.cs",
-              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Clients\\AddClient.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
+              "Title": "AddContract.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Contracts\\AddContract.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Contracts\\AddContract.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Contracts\\AddContract.cs [Design]",
+              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Contracts\\AddContract.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T22:01:36.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T19:45:16.416Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "Main.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Main.cs",
-              "RelativeDocumentMoniker": "CRM\\Main.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Main.cs [Design]",
-              "RelativeToolTip": "CRM\\Main.cs [Design]",
+              "Title": "AddClient.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Clients\\AddClient.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Clients\\AddClient.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Clients\\AddClient.cs [Design]",
+              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Clients\\AddClient.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:19:23.38Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-01-28T19:44:44.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AddUser.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Employees\\AddUser.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Employees\\AddUser.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Employees\\AddUser.cs [Design]",
+              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Employees\\AddUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T19:34:44.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProductManager.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ProductManager.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\UserControls\\ProductManager.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ProductManager.cs [Design]",
+              "RelativeToolTip": "CRM\\Helpers\\UserControls\\ProductManager.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T18:21:17.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DataBaseGetter.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\DataBaseGetter.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\DataBaseGetter.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\DataBaseGetter.cs",
+              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\DataBaseGetter.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAawB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T19:35:42.065Z"
             },
             {
               "$type": "Bookmark",
@@ -510,242 +523,197 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "LoginForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\LoginForm.Designer.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\LoginForm.Designer.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\LoginForm.Designer.cs",
-              "RelativeToolTip": "CRM\\Helpers\\LoginForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T15:42:35.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "RemoveProducts.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Products\\RemoveProducts.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Products\\RemoveProducts.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Products\\RemoveProducts.cs",
-              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Products\\RemoveProducts.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T21:53:53.872Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "LoginData.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\LoginData.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\LoginData.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\LoginData.cs",
-              "RelativeToolTip": "CRM\\Helpers\\LoginData.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAADIAAAAXAAAAAAAAAA==",
+              "Title": "UserManager.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\UserManager.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\UserControls\\UserManager.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\UserManager.cs [Design]",
+              "RelativeToolTip": "CRM\\Helpers\\UserControls\\UserManager.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T16:54:32.26Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "DataBaseGetter.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\DataBaseGetter.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\DataBaseGetter.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\DataBaseGetter.cs",
-              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\DataBaseGetter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T19:35:42.065Z"
+              "WhenOpened": "2025-01-28T18:28:45.968Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
               "Title": "Products.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DatabaseObjects\\Products.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DatabaseObjects\\Products.cs",
               "RelativeDocumentMoniker": "CRM\\Helpers\\DatabaseObjects\\Products.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DatabaseObjects\\Products.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DatabaseObjects\\Products.cs",
               "RelativeToolTip": "CRM\\Helpers\\DatabaseObjects\\Products.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T18:47:39.6Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "ContractManager.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ContractManager.cs",
+              "Title": "ContractManager.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ContractManager.cs",
               "RelativeDocumentMoniker": "CRM\\Helpers\\UserControls\\ContractManager.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ContractManager.cs",
-              "RelativeToolTip": "CRM\\Helpers\\UserControls\\ContractManager.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAIAwwFUAAAAwAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ContractManager.cs [Design]",
+              "RelativeToolTip": "CRM\\Helpers\\UserControls\\ContractManager.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T19:52:27.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T17:55:16.889Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
-              "Title": "EventManager.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\EventManager.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\UserControls\\EventManager.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\EventManager.cs",
-              "RelativeToolTip": "CRM\\Helpers\\UserControls\\EventManager.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAIAwwFYAAAAwAAAAAAAAAA==",
+              "Title": "EventTypes.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Enums\\EventTypes.cs",
+              "RelativeDocumentMoniker": "CRM\\Enums\\EventTypes.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Enums\\EventTypes.cs",
+              "RelativeToolTip": "CRM\\Enums\\EventTypes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T19:08:28.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:05:20.882Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
-              "Title": "ProductManager.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ProductManager.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\UserControls\\ProductManager.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ProductManager.cs",
-              "RelativeToolTip": "CRM\\Helpers\\UserControls\\ProductManager.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAIAwwGEAAAAwAAAAAAAAAA==",
+              "Title": "ContractTypes.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Enums\\ContractTypes.cs",
+              "RelativeDocumentMoniker": "CRM\\Enums\\ContractTypes.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Enums\\ContractTypes.cs",
+              "RelativeToolTip": "CRM\\Enums\\ContractTypes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T19:52:35.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:08:06.138Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "AddEvent.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Events\\AddEvent.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Events\\AddEvent.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Events\\AddEvent.cs",
-              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Events\\AddEvent.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAlwBoAAAAAAAAAAAAAAA==",
+              "Title": "ClientManager.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ClientManager.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\UserControls\\ClientManager.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ClientManager.cs [Design]",
+              "RelativeToolTip": "CRM\\Helpers\\UserControls\\ClientManager.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T22:10:05.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:25:43.82Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "AddContract.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Contracts\\AddContract.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Contracts\\AddContract.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Contracts\\AddContract.cs",
-              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Contracts\\AddContract.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAlwBwAAAAjAAAAAAAAAA==",
+              "Title": "Clients.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DatabaseObjects\\Clients.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\DatabaseObjects\\Clients.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DatabaseObjects\\Clients.cs",
+              "RelativeToolTip": "CRM\\Helpers\\DatabaseObjects\\Clients.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T21:56:20.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:53:55.293Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
-              "Title": "RemoveClient.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Clients\\RemoveClient.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Clients\\RemoveClient.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Clients\\RemoveClient.cs",
-              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Clients\\RemoveClient.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAlwBYAAAAUAAAAAAAAAA==",
+              "Title": "LoginControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\LoginControl.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\UserControls\\LoginControl.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\LoginControl.cs [Design]",
+              "RelativeToolTip": "CRM\\Helpers\\UserControls\\LoginControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T21:52:29.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "AddUser.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Employees\\AddUser.Designer.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Employees\\AddUser.Designer.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Employees\\AddUser.Designer.cs",
-              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Employees\\AddUser.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T21:48:31.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T17:32:43.586Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
-              "Title": "RemoveContract.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Contracts\\RemoveContract.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Contracts\\RemoveContract.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Contracts\\RemoveContract.cs",
-              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Contracts\\RemoveContract.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T21:54:11.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\LoginForm.cs",
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\LoginForm.cs",
               "RelativeDocumentMoniker": "CRM\\Helpers\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\LoginForm.cs",
-              "RelativeToolTip": "CRM\\Helpers\\LoginForm.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBMAAAA6AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\LoginForm.cs [Design]",
+              "RelativeToolTip": "CRM\\Helpers\\LoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T13:57:18.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T13:51:54.087Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 34,
-              "Title": "RemoveEvent.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Events\\RemoveEvent.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Events\\RemoveEvent.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Events\\RemoveEvent.cs",
-              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Events\\RemoveEvent.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAApwBEAAAA6AAAAAAAAAA==",
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Main.cs",
+              "RelativeDocumentMoniker": "CRM\\Main.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Main.cs [Design]",
+              "RelativeToolTip": "CRM\\Main.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T21:54:04.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T18:19:23.38Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "AddProducts.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Products\\AddProducts.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Products\\AddProducts.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Products\\AddProducts.cs",
-              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Products\\AddProducts.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 35,
+              "Title": "RemoveUser.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Employees\\RemoveUser.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Employees\\RemoveUser.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Employees\\RemoveUser.cs [Design]",
+              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Employees\\RemoveUser.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T21:54:42.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "ClientManager.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ClientManager.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\UserControls\\ClientManager.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ClientManager.cs",
-              "RelativeToolTip": "CRM\\Helpers\\UserControls\\ClientManager.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA5wDIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T19:20:48.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T19:34:58.662Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 39,
-              "Title": "RemoveClient.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Clients\\RemoveClient.Designer.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Clients\\RemoveClient.Designer.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Clients\\RemoveClient.Designer.cs",
-              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Clients\\RemoveClient.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
+              "Title": "AddUser.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Employees\\AddUser.Designer.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Employees\\AddUser.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Employees\\AddUser.Designer.cs",
+              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Employees\\AddUser.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T21:24:40.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T21:48:31.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\LoginForm.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\LoginForm.cs",
+              "RelativeToolTip": "CRM\\Helpers\\LoginForm.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T13:57:18.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RemoveEvent.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Events\\RemoveEvent.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Events\\RemoveEvent.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Events\\RemoveEvent.cs [Design]",
+              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Events\\RemoveEvent.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T19:46:03.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RemoveProducts.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Products\\RemoveProducts.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Products\\RemoveProducts.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Products\\RemoveProducts.cs [Design]",
+              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Products\\RemoveProducts.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T19:46:40.467Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 40,
+              "Title": "RemoveClient.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Clients\\RemoveClient.Designer.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\DataBaseInteraction\\Clients\\RemoveClient.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DataBaseInteraction\\Clients\\RemoveClient.Designer.cs",
+              "RelativeToolTip": "CRM\\Helpers\\DataBaseInteraction\\Clients\\RemoveClient.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T21:24:40.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
               "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Main.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Main.cs",
               "RelativeDocumentMoniker": "CRM\\Main.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Main.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Main.cs",
               "RelativeToolTip": "CRM\\Main.cs",
               "ViewState": "AgIAAFgAAAAAAAAAAAAiwCkAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -753,11 +721,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "Events.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DatabaseObjects\\Events.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DatabaseObjects\\Events.cs",
               "RelativeDocumentMoniker": "CRM\\Helpers\\DatabaseObjects\\Events.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DatabaseObjects\\Events.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DatabaseObjects\\Events.cs",
               "RelativeToolTip": "CRM\\Helpers\\DatabaseObjects\\Events.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -765,24 +733,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "UserManager.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\UserManager.cs",
-              "RelativeDocumentMoniker": "CRM\\Helpers\\UserControls\\UserManager.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\UserManager.cs",
-              "RelativeToolTip": "CRM\\Helpers\\UserControls\\UserManager.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAcwCYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T19:52:39.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 43,
               "Title": "Main.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Main.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Main.Designer.cs",
               "RelativeDocumentMoniker": "CRM\\Main.Designer.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Main.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Main.Designer.cs",
               "RelativeToolTip": "CRM\\Main.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -792,9 +747,9 @@
               "$type": "Document",
               "DocumentIndex": 44,
               "Title": "Contracts.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DatabaseObjects\\Contracts.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DatabaseObjects\\Contracts.cs",
               "RelativeDocumentMoniker": "CRM\\Helpers\\DatabaseObjects\\Contracts.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DatabaseObjects\\Contracts.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DatabaseObjects\\Contracts.cs",
               "RelativeToolTip": "CRM\\Helpers\\DatabaseObjects\\Contracts.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -804,9 +759,9 @@
               "$type": "Document",
               "DocumentIndex": 45,
               "Title": "Employees.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DatabaseObjects\\Employees.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DatabaseObjects\\Employees.cs",
               "RelativeDocumentMoniker": "CRM\\Helpers\\DatabaseObjects\\Employees.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DatabaseObjects\\Employees.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\DatabaseObjects\\Employees.cs",
               "RelativeToolTip": "CRM\\Helpers\\DatabaseObjects\\Employees.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -815,10 +770,22 @@
             {
               "$type": "Document",
               "DocumentIndex": 46,
+              "Title": "LoginData.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\LoginData.cs",
+              "RelativeDocumentMoniker": "CRM\\Helpers\\LoginData.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\LoginData.cs",
+              "RelativeToolTip": "CRM\\Helpers\\LoginData.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwDIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T16:54:32.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
               "Title": "ClientManager.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ClientManager.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ClientManager.Designer.cs",
               "RelativeDocumentMoniker": "CRM\\Helpers\\UserControls\\ClientManager.Designer.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ClientManager.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ClientManager.Designer.cs",
               "RelativeToolTip": "CRM\\Helpers\\UserControls\\ClientManager.Designer.cs",
               "ViewState": "AgIAAGoAAAAAAAAAAIAwwJUAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -827,53 +794,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "ProductManager.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ProductManager.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ProductManager.Designer.cs",
               "RelativeDocumentMoniker": "CRM\\Helpers\\UserControls\\ProductManager.Designer.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ProductManager.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ProductManager.Designer.cs",
               "RelativeToolTip": "CRM\\Helpers\\UserControls\\ProductManager.Designer.cs",
               "ViewState": "AgIAAHAAAAAAAAAAAIAwwJ0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T19:17:34.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T19:17:34.507Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "ContractManager.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ContractManager.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ContractManager.Designer.cs",
               "RelativeDocumentMoniker": "CRM\\Helpers\\UserControls\\ContractManager.Designer.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ContractManager.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Helpers\\UserControls\\ContractManager.Designer.cs",
               "RelativeToolTip": "CRM\\Helpers\\UserControls\\ContractManager.Designer.cs",
               "ViewState": "AgIAAIwAAAAAAAAAAIAwwMYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T19:16:19.866Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "EventTypes.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Enums\\EventTypes.cs",
-              "RelativeDocumentMoniker": "CRM\\Enums\\EventTypes.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Enums\\EventTypes.cs",
-              "RelativeToolTip": "CRM\\Enums\\EventTypes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:05:20.882Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "ContractTypes.cs",
-              "DocumentMoniker": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Enums\\ContractTypes.cs",
-              "RelativeDocumentMoniker": "CRM\\Enums\\ContractTypes.cs",
-              "ToolTip": "C:\\Users\\ferer\\source\\repos\\Project-Sobol\\CRM\\CRM\\CRM\\Enums\\ContractTypes.cs",
-              "RelativeToolTip": "CRM\\Enums\\ContractTypes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T18:08:06.138Z"
             }
           ]
         }

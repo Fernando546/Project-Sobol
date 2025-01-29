@@ -30,16 +30,24 @@ namespace CRM.Helpers.UserControls
 
         private void BTN_Add_Click(object sender, System.EventArgs e)
         {
-            var removeContract = new RemoveContract();
-            removeContract.ShowDialog();
-            QueryDBAndFillTable();
+            if (CMBX_Clients.SelectedIndex >= 0)
+            {
+                Employees employee = new Employees()
+                {
+                    ID = _userID
+                };
+
+                var addContract = new AddContract(_clients[CMBX_Clients.SelectedIndex],employee);
+                addContract.ShowDialog();
+                QueryDBAndFillTable();
+            }
         }
 
         private void BTN_Remove_Click(object sender, System.EventArgs e)
         {
-            var addContract = new AddContract();
-            addContract.ShowDialog();
-            QueryDBAndFillTable();
+            var removeContract = new RemoveContract();
+            removeContract.ShowDialog();
+            QueryDBAndFillTable();  
         }
 
         private void QueryDBforClients()
