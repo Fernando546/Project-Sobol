@@ -39,6 +39,7 @@
             this.BTN_Add = new System.Windows.Forms.Button();
             this.CMBX_Contracts = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.BTN_AddProductName = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Products)).BeginInit();
             this.SuspendLayout();
             // 
@@ -112,7 +113,7 @@
             // 
             // BTN_Remove
             // 
-            this.BTN_Remove.Location = new System.Drawing.Point(888, 227);
+            this.BTN_Remove.Location = new System.Drawing.Point(888, 176);
             this.BTN_Remove.Name = "BTN_Remove";
             this.BTN_Remove.Size = new System.Drawing.Size(139, 67);
             this.BTN_Remove.TabIndex = 6;
@@ -122,7 +123,7 @@
             // 
             // BTN_Add
             // 
-            this.BTN_Add.Location = new System.Drawing.Point(888, 127);
+            this.BTN_Add.Location = new System.Drawing.Point(888, 94);
             this.BTN_Add.Name = "BTN_Add";
             this.BTN_Add.Size = new System.Drawing.Size(139, 67);
             this.BTN_Add.TabIndex = 7;
@@ -148,10 +149,21 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "Contract List";
             // 
+            // BTN_AddProductName
+            // 
+            this.BTN_AddProductName.Location = new System.Drawing.Point(888, 249);
+            this.BTN_AddProductName.Name = "BTN_AddProductName";
+            this.BTN_AddProductName.Size = new System.Drawing.Size(139, 67);
+            this.BTN_AddProductName.TabIndex = 10;
+            this.BTN_AddProductName.Text = "Add Product Name";
+            this.BTN_AddProductName.UseVisualStyleBackColor = true;
+            this.BTN_AddProductName.Click += new System.EventHandler(this.BTN_AddProductName_Click);
+            // 
             // ProductManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.BTN_AddProductName);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.CMBX_Contracts);
             this.Controls.Add(this.BTN_Add);
@@ -177,5 +189,6 @@
         private System.Windows.Forms.Button BTN_Add;
         private System.Windows.Forms.ComboBox CMBX_Contracts;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button BTN_AddProductName;
     }
 }

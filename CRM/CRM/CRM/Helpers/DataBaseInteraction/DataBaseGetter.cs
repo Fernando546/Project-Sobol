@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace CRM.Helpers.DataBaseInteraction
@@ -216,7 +217,7 @@ namespace CRM.Helpers.DataBaseInteraction
                             ClientID = reader.GetInt32(1),
                             EmployeeID = reader.GetInt32(2),
                             Date = (System.Data.SqlTypes.SqlDateTime)(reader.IsDBNull(3) ? (DateTime?)null : reader.GetDateTime(3)),
-                            Type = reader.GetChar(4),
+                            Type = reader.GetString(4).ElementAt(0),
                             Description = reader.GetString(5)
                         });
                     }
@@ -246,7 +247,7 @@ namespace CRM.Helpers.DataBaseInteraction
                             ClientID = reader.GetInt32(1),
                             EmployeeID = reader.GetInt32(2),
                             Date = (System.Data.SqlTypes.SqlDateTime)(reader.IsDBNull(3) ? (DateTime?)null : reader.GetDateTime(3)),
-                            Type = reader.GetChar(4),
+                            Type = reader.GetString(4).ElementAt(0),
                             Description = reader.GetString(5)
                         });
                     }
@@ -275,7 +276,7 @@ namespace CRM.Helpers.DataBaseInteraction
                             ClientID = reader.GetInt32(1),
                             EmployeeID = reader.GetInt32(2),
                             Date = (System.Data.SqlTypes.SqlDateTime)(reader.IsDBNull(3) ? (DateTime?)null : reader.GetDateTime(3)),
-                            Type = reader.GetChar(4),
+                            Type = reader.GetString(4).ElementAt(0),
                             Description = reader.GetString(5)
                         });
                     }
@@ -305,7 +306,7 @@ namespace CRM.Helpers.DataBaseInteraction
                             ClientID = reader.GetInt32(1),
                             EmployeeID = reader.GetInt32(2),
                             Date = (System.Data.SqlTypes.SqlDateTime)(reader.IsDBNull(3) ? (DateTime?)null : reader.GetDateTime(3)),
-                            Type = reader.GetChar(4),
+                            Type = reader.GetString(4).ElementAt(0),
                             Description = reader.GetString(5)
                         });
                     }
@@ -372,6 +373,34 @@ namespace CRM.Helpers.DataBaseInteraction
             return products;
         }
 
+        internal static List<string> GetProductNames()
+        {
+            List<string> productNames = new List<string>();
+            string query = "SELECT Name FROM ProductNames";
+
+            using (SqlConnection conn = new SqlConnection(Program.DATABASE_SOURCE))
+            using (SqlCommand cmd = new SqlCommand(query, conn))
+            {
+                try
+                {
+                    conn.Open();
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            productNames.Add(reader.GetString(0)); // Add only product name
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error: " + ex.Message);
+                }
+            }
+
+            return productNames;
+        }
+
         internal static int GetMaxID(string table)
         {
             int maxID = 0; // Default to 0 if table is empty or an error occurs
@@ -397,6 +426,36 @@ namespace CRM.Helpers.DataBaseInteraction
             }
 
             return maxID;
+        }
+
+        internal static void RemoveByIDFromTable(int ID, string table)
+        {
+            string query = $"DELETE FROM {table} WHERE ID = @ID"; // Safe table name usage
+
+            using (SqlConnection conn = new SqlConnection(Program.DATABASE_SOURCE))
+            using (SqlCommand cmd = new SqlCommand(query, conn))
+            {
+                cmd.Parameters.AddWithValue("@ID", ID);
+
+                try
+                {
+                    conn.Open();
+                    int rowsAffected = cmd.ExecuteNonQuery(); // Executes DELETE
+
+                    if (rowsAffected > 0)
+                    {
+                        MessageBox.Show($"Record with ID {ID} removed from {table}.");
+                    }
+                    else
+                    {
+                        MessageBox.Show($"No record found with ID {ID} in {table}.");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error: " + ex.Message);
+                }
+            }
         }
 
     }

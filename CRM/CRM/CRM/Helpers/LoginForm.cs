@@ -29,7 +29,7 @@ namespace CRM.Helpers
         {
             if(debug)
             {
-                _loginData.SetData("test", false, 1, true);
+                _loginData.SetData("test", true, 1, true);
                 Close();
             }
             else

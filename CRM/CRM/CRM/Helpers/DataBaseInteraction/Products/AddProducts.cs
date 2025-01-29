@@ -12,6 +12,7 @@ namespace CRM.Helpers.DataBaseInteraction.Products
             InitializeComponent();
             _contract = contract;
             FillTypes();
+            FillNames();
         }
 
         private void BTN_Cancel_Click(object sender, EventArgs e)
@@ -27,7 +28,7 @@ namespace CRM.Helpers.DataBaseInteraction.Products
 
                 product.ID = 0; //change
                 product.ContractID = _contract.ID;
-                product.Name = TXTB_Name.Text;
+                product.Name = CMBX_Name.Text;
                 product.Cost = SqlMoney.Parse(TXTB_Price.Text);
                 product.Type = SqlBoolean.Parse(SelectType(CMBX_Type.Text).ToString());
                 product.Amount = SqlInt32.Parse(TXTB_Count.Text);
@@ -53,9 +54,9 @@ namespace CRM.Helpers.DataBaseInteraction.Products
                 MessageBox.Show("Amount is incorrect, should be a valid positive number (eg. 22)");
                 return false;
             }
-            else if (TXTB_Name.Text.Length < 3)
+            else if (CMBX_Name.SelectedIndex >= 0)
             {
-                MessageBox.Show("Name is too short, should be at least 3 characters");
+                MessageBox.Show("Name is not selected");
                 return false;
             }
 
@@ -123,6 +124,12 @@ namespace CRM.Helpers.DataBaseInteraction.Products
         {
             CMBX_Type.Items.Clear();
             CMBX_Type.Items.AddRange(new object[] { "Buy", "Sell"});
+        }
+
+        private void FillNames()
+        {
+            CMBX_Name.Items.Clear();
+            CMBX_Name.Items.AddRange(DataBaseGetter.GetProductNames().ToArray());
         }
     }
 }

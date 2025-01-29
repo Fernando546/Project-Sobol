@@ -43,12 +43,13 @@ namespace CRM.Helpers.DataBaseInteraction.Products
             {
                 DBRemoveQuery(numericProductID);
                 MessageBox.Show("Product deleted successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Close();
             }
         }
 
         private void DBRemoveQuery(int id)
         {
-            throw new NotImplementedException();
+            DataBaseGetter.RemoveByIDFromTable(id, "Products");
         }
     }
 }

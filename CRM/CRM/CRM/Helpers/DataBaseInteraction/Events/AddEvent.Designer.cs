@@ -30,11 +30,9 @@
         {
             this.BTN_Cancel = new System.Windows.Forms.Button();
             this.BTN_Add = new System.Windows.Forms.Button();
-            this.CMBX_Clients = new System.Windows.Forms.ComboBox();
             this.CMBX_Type = new System.Windows.Forms.ComboBox();
             this.TXTB_Date = new System.Windows.Forms.TextBox();
             this.TXTB_Description = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -62,14 +60,6 @@
             this.BTN_Add.UseVisualStyleBackColor = false;
             this.BTN_Add.Click += new System.EventHandler(this.BTN_Add_Click);
             // 
-            // CMBX_Clients
-            // 
-            this.CMBX_Clients.FormattingEnabled = true;
-            this.CMBX_Clients.Location = new System.Drawing.Point(56, 61);
-            this.CMBX_Clients.Name = "CMBX_Clients";
-            this.CMBX_Clients.Size = new System.Drawing.Size(263, 24);
-            this.CMBX_Clients.TabIndex = 4;
-            // 
             // CMBX_Type
             // 
             this.CMBX_Type.FormattingEnabled = true;
@@ -91,15 +81,6 @@
             this.TXTB_Description.Name = "TXTB_Description";
             this.TXTB_Description.Size = new System.Drawing.Size(453, 22);
             this.TXTB_Description.TabIndex = 7;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(53, 42);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 16);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Client List";
             // 
             // label2
             // 
@@ -136,11 +117,9 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.TXTB_Description);
             this.Controls.Add(this.TXTB_Date);
             this.Controls.Add(this.CMBX_Type);
-            this.Controls.Add(this.CMBX_Clients);
             this.Controls.Add(this.BTN_Add);
             this.Controls.Add(this.BTN_Cancel);
             this.Name = "AddEvent";
@@ -154,11 +133,9 @@
 
         private System.Windows.Forms.Button BTN_Cancel;
         private System.Windows.Forms.Button BTN_Add;
-        private System.Windows.Forms.ComboBox CMBX_Clients;
         private System.Windows.Forms.ComboBox CMBX_Type;
         private System.Windows.Forms.TextBox TXTB_Date;
         private System.Windows.Forms.TextBox TXTB_Description;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;

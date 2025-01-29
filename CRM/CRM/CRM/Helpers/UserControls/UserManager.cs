@@ -31,7 +31,7 @@ namespace CRM.Helpers.UserControls
 
         private void BTN_Add_Click(object sender, EventArgs e)
         {
-            var addUser = new AddClient();
+            var addUser = new AddUser();
             addUser.ShowDialog();
             QueryDBAndFillTable();
         }

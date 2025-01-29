@@ -97,6 +97,12 @@
     <Compile Include="Helpers\DataBaseInteraction\Events\RemoveEvent.Designer.cs">
       <DependentUpon>RemoveEvent.cs</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\DataBaseInteraction\Products\AddProductName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helpers\DataBaseInteraction\Products\AddProductName.Designer.cs">
+      <DependentUpon>AddProductName.cs</DependentUpon>
+    </Compile>
     <Compile Include="Helpers\DataBaseInteraction\Products\AddProducts.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -190,6 +196,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Helpers\DataBaseInteraction\Events\RemoveEvent.resx">
       <DependentUpon>RemoveEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Helpers\DataBaseInteraction\Products\AddProductName.resx">
+      <DependentUpon>AddProductName.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Helpers\DataBaseInteraction\Products\AddProducts.resx">
       <DependentUpon>AddProducts.cs</DependentUpon>

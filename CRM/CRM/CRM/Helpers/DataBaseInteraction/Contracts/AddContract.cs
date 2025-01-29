@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CRM.Helpers.DatabaseObjects;
+using System;
+using System.Data.SqlClient;
 using System.Data.SqlTypes;
 using System.Globalization;
 using System.Windows.Forms;
@@ -27,7 +29,7 @@ namespace CRM.Helpers.DataBaseInteraction.Contracts
             if (ValidateData())
             {
                 DatabaseObjects.Contracts contract = new DatabaseObjects.Contracts();
-                contract.ID = 0; //change
+                contract.ID = DataBaseGetter.GetMaxID("Contracts") + 1;
                 contract.EmployeeID = _employee.ID;
                 contract.ClientID = _client.ID;
                 contract.Type = SelectType(CMBX_Type.Text);
@@ -38,7 +40,15 @@ namespace CRM.Helpers.DataBaseInteraction.Contracts
                 contract.SignDate = SqlDateTime.Parse(TXTB_SignDate.Text);
                 contract.ExpireDate = SqlDateTime.Parse(TXTB_ExpireDate.Text);
 
-                DBAddQuery(contract);
+                if (DBAddQuery(contract))
+                {
+                    MessageBox.Show("Contract added successfully");
+                    Close();
+                }
+                else
+                {
+                    MessageBox.Show("Error adding contract");
+                }
             }
         }
 
@@ -94,9 +104,28 @@ namespace CRM.Helpers.DataBaseInteraction.Contracts
                     return "B";
             }
         }
-        private void DBAddQuery(DatabaseObjects.Contracts contract)
+        private bool DBAddQuery(DatabaseObjects.Contracts contract)
         {
-            throw new NotImplementedException();
+            string query = "INSERT INTO Contracts (ID, EmployeeID, ClientID, Type, Name, Cost, Profit, FinalProfit, SignDate, ExpireDate) VALUES (@ID, @EmployeeID, @ClientID, @Type, @Name, @Cost, @Profit, @FinalProfit, @SignDate, @ExpireDate)";
+
+            using (SqlConnection conn = new SqlConnection(Program.DATABASE_SOURCE))
+            using (SqlCommand cmd = new SqlCommand(query, conn))
+            {
+                conn.Open();
+                cmd.Parameters.AddWithValue("@ID", contract.ID);
+                cmd.Parameters.AddWithValue("@EmployeeID", contract.EmployeeID);
+                cmd.Parameters.AddWithValue("@ClientID", contract.ClientID);
+                cmd.Parameters.AddWithValue("@Type", contract.Type);
+                cmd.Parameters.AddWithValue("@Name", contract.Name);
+                cmd.Parameters.AddWithValue("@Cost", contract.Cost);
+                cmd.Parameters.AddWithValue("@Profit", contract.Profit);
+                cmd.Parameters.AddWithValue("@FinalProfit", contract.FinalProfit);
+                cmd.Parameters.AddWithValue("@SignDate", contract.SignDate);
+                cmd.Parameters.AddWithValue("@ExpireDate", contract.ExpireDate);
+                cmd.ExecuteNonQuery();
+            }
+
+            return true;
         }
 
         private void FillTypes()

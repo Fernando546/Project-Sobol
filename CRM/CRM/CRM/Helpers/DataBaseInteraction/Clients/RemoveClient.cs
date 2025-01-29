@@ -43,12 +43,13 @@ namespace CRM.Helpers.DataBaseInteraction.Clients
             {
                 DBRemoveQuery(numericClientId);
                 MessageBox.Show("Client deleted successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Close();
             }
         }
 
         private void DBRemoveQuery(int id)
         {
-            throw new NotImplementedException();
+            DataBaseGetter.RemoveByIDFromTable(id, "Clients");
         }
     }
 }

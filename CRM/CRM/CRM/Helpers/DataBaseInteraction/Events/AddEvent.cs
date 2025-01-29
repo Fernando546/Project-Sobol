@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data.SqlClient;
 using System.Data.SqlTypes;
 using System.Globalization;
 using System.Windows.Forms;
@@ -29,14 +30,22 @@ namespace CRM.Helpers.DataBaseInteraction.Events
             {
                 DatabaseObjects.Events event_ = new DatabaseObjects.Events();
 
-                event_.ID = 0; //change
+                event_.ID = DataBaseGetter.GetMaxID("Events") + 1;
                 event_.ClientID = _client.ID;
                 event_.EmployeeID = _employee.ID;
                 event_.Date = SqlDateTime.Parse(TXTB_Date.Text);
                 event_.Type = SelectType(CMBX_Type.Text);
                 event_.Description = TXTB_Description.Text;
 
-                DBAddQuery(event_);
+                if (DBAddQuery(event_))
+                {
+                    MessageBox.Show("Event added successfully");
+                    Close();
+                }
+                else
+                {
+                    MessageBox.Show("Error adding event");
+                }
             }
         }
 
@@ -103,9 +112,23 @@ namespace CRM.Helpers.DataBaseInteraction.Events
             }
         }
 
-        private void DBAddQuery(DatabaseObjects.Events event_)
+        private bool DBAddQuery(DatabaseObjects.Events event_)
         {
-            throw new NotImplementedException();
+            string query = "INSERT INTO Events (ID, ClientID, EmployeeID, Date, Type, Description) VALUES (@ID, @ClientID, @EmployeeID, @Date, @Type, @Description)";
+
+            using (SqlConnection conn = new SqlConnection(Program.DATABASE_SOURCE))
+            using (SqlCommand cmd = new SqlCommand(query, conn))
+            {
+                conn.Open();
+                cmd.Parameters.AddWithValue("@ID", event_.ID);
+                cmd.Parameters.AddWithValue("@ClientID", event_.ClientID);
+                cmd.Parameters.AddWithValue("@EmployeeID", event_.EmployeeID);
+                cmd.Parameters.AddWithValue("@Date", event_.Date);
+                cmd.Parameters.AddWithValue("@Type", event_.Type);
+                cmd.Parameters.AddWithValue("@Description", event_.Description);
+                cmd.ExecuteNonQuery();
+            }
+            return true;
         }
 
         private void FillTypes()

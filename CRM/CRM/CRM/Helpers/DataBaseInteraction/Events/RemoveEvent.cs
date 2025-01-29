@@ -43,12 +43,13 @@ namespace CRM.Helpers.DataBaseInteraction.Events
             {
                 DBRemoveQuery(numericEventID);
                 MessageBox.Show("Event deleted successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Close();
             }
         }
 
         private void DBRemoveQuery(int id)
         {
-            throw new NotImplementedException();
+            DataBaseGetter.RemoveByIDFromTable(id, "Events");
         }
     }
 }

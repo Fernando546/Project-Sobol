@@ -22,6 +22,7 @@ namespace CRM.Helpers.UserControls
             if (!isAdmin)
             {
                 BTN_Remove.Visible = false;
+                BTN_AddProductName.Visible = false;
             }
         }
 
@@ -54,6 +55,12 @@ namespace CRM.Helpers.UserControls
             {
                 MessageBox.Show("Contract has to be selected first");
             }
+        }
+
+        private void BTN_AddProductName_Click(object sender, EventArgs e)
+        {
+            AddProductName addProductName = new AddProductName();
+            addProductName.ShowDialog();
         }
 
         private void QueryDBforContracts()
