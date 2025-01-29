@@ -36,9 +36,9 @@
             // 
             // BTN_Cancel
             // 
-            this.BTN_Cancel.Location = new System.Drawing.Point(44, 334);
+            this.BTN_Cancel.Location = new System.Drawing.Point(348, 140);
             this.BTN_Cancel.Name = "BTN_Cancel";
-            this.BTN_Cancel.Size = new System.Drawing.Size(211, 89);
+            this.BTN_Cancel.Size = new System.Drawing.Size(139, 67);
             this.BTN_Cancel.TabIndex = 3;
             this.BTN_Cancel.Text = "Cancel";
             this.BTN_Cancel.UseVisualStyleBackColor = true;
@@ -46,25 +46,27 @@
             // 
             // BTN_Remove
             // 
-            this.BTN_Remove.Location = new System.Drawing.Point(506, 307);
+            this.BTN_Remove.BackColor = System.Drawing.Color.LightCoral;
+            this.BTN_Remove.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.BTN_Remove.Location = new System.Drawing.Point(348, 36);
             this.BTN_Remove.Name = "BTN_Remove";
-            this.BTN_Remove.Size = new System.Drawing.Size(211, 89);
+            this.BTN_Remove.Size = new System.Drawing.Size(139, 67);
             this.BTN_Remove.TabIndex = 5;
             this.BTN_Remove.Text = "Remove Event";
-            this.BTN_Remove.UseVisualStyleBackColor = true;
+            this.BTN_Remove.UseVisualStyleBackColor = false;
             this.BTN_Remove.Click += new System.EventHandler(this.BTN_Remove_Click);
             // 
             // TXTB_ID
             // 
-            this.TXTB_ID.Location = new System.Drawing.Point(152, 168);
+            this.TXTB_ID.Location = new System.Drawing.Point(44, 55);
             this.TXTB_ID.Name = "TXTB_ID";
-            this.TXTB_ID.Size = new System.Drawing.Size(172, 22);
+            this.TXTB_ID.Size = new System.Drawing.Size(263, 22);
             this.TXTB_ID.TabIndex = 7;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(173, 123);
+            this.label1.Location = new System.Drawing.Point(41, 36);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(20, 16);
             this.label1.TabIndex = 9;
@@ -74,7 +76,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(532, 248);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TXTB_ID);
             this.Controls.Add(this.BTN_Remove);

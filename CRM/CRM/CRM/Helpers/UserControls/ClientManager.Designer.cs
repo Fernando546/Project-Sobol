@@ -55,12 +55,12 @@
             this.LastContact,
             this.Phone,
             this.EMail});
-            this.DGV_Clients.Location = new System.Drawing.Point(21, 232);
+            this.DGV_Clients.Location = new System.Drawing.Point(43, 46);
             this.DGV_Clients.Name = "DGV_Clients";
             this.DGV_Clients.ReadOnly = true;
             this.DGV_Clients.RowHeadersWidth = 51;
             this.DGV_Clients.RowTemplate.Height = 24;
-            this.DGV_Clients.Size = new System.Drawing.Size(699, 127);
+            this.DGV_Clients.Size = new System.Drawing.Size(678, 248);
             this.DGV_Clients.TabIndex = 1;
             // 
             // ID
@@ -105,7 +105,7 @@
             // 
             // BTN_Add
             // 
-            this.BTN_Add.Location = new System.Drawing.Point(719, 390);
+            this.BTN_Add.Location = new System.Drawing.Point(760, 46);
             this.BTN_Add.Name = "BTN_Add";
             this.BTN_Add.Size = new System.Drawing.Size(139, 67);
             this.BTN_Add.TabIndex = 2;
@@ -115,9 +115,9 @@
             // 
             // BTN_Remove
             // 
-            this.BTN_Remove.Location = new System.Drawing.Point(739, 281);
+            this.BTN_Remove.Location = new System.Drawing.Point(760, 141);
             this.BTN_Remove.Name = "BTN_Remove";
-            this.BTN_Remove.Size = new System.Drawing.Size(118, 77);
+            this.BTN_Remove.Size = new System.Drawing.Size(139, 67);
             this.BTN_Remove.TabIndex = 3;
             this.BTN_Remove.Text = "Remove Client";
             this.BTN_Remove.UseVisualStyleBackColor = true;
@@ -139,7 +139,7 @@
             this.Controls.Add(this.BTN_Add);
             this.Controls.Add(this.DGV_Clients);
             this.Name = "ClientManager";
-            this.Size = new System.Drawing.Size(861, 460);
+            this.Size = new System.Drawing.Size(943, 340);
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Clients)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.clientsBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.clientsBindingSource1)).EndInit();

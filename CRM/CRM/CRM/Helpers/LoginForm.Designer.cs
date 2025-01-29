@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.BTN_Login = new System.Windows.Forms.Button();
             this.TXTB_Username = new System.Windows.Forms.TextBox();
             this.TXTB_Password = new System.Windows.Forms.TextBox();
@@ -38,7 +39,7 @@
             // 
             // BTN_Login
             // 
-            this.BTN_Login.Location = new System.Drawing.Point(150, 145);
+            this.BTN_Login.Location = new System.Drawing.Point(157, 145);
             this.BTN_Login.Name = "BTN_Login";
             this.BTN_Login.Size = new System.Drawing.Size(67, 49);
             this.BTN_Login.TabIndex = 0;
@@ -48,9 +49,10 @@
             // 
             // TXTB_Username
             // 
-            this.TXTB_Username.Location = new System.Drawing.Point(12, 47);
+            this.TXTB_Username.BackColor = System.Drawing.Color.White;
+            this.TXTB_Username.Location = new System.Drawing.Point(12, 46);
             this.TXTB_Username.Name = "TXTB_Username";
-            this.TXTB_Username.Size = new System.Drawing.Size(205, 22);
+            this.TXTB_Username.Size = new System.Drawing.Size(212, 22);
             this.TXTB_Username.TabIndex = 1;
             // 
             // TXTB_Password
@@ -58,7 +60,7 @@
             this.TXTB_Password.Location = new System.Drawing.Point(12, 108);
             this.TXTB_Password.Name = "TXTB_Password";
             this.TXTB_Password.PasswordChar = '*';
-            this.TXTB_Password.Size = new System.Drawing.Size(205, 22);
+            this.TXTB_Password.Size = new System.Drawing.Size(212, 22);
             this.TXTB_Password.TabIndex = 2;
             this.TXTB_Password.UseSystemPasswordChar = true;
             // 
@@ -75,7 +77,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 28);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.Location = new System.Drawing.Point(9, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(70, 16);
             this.label1.TabIndex = 4;
@@ -84,6 +88,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Location = new System.Drawing.Point(9, 89);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 16);
@@ -94,6 +100,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(236, 206);
             this.ControlBox = false;
             this.Controls.Add(this.label2);

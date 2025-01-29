@@ -83,14 +83,14 @@
             // manageContractsToolStripMenuItem
             // 
             this.manageContractsToolStripMenuItem.Name = "manageContractsToolStripMenuItem";
-            this.manageContractsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.manageContractsToolStripMenuItem.Size = new System.Drawing.Size(212, 26);
             this.manageContractsToolStripMenuItem.Text = "Manage Contracts";
             this.manageContractsToolStripMenuItem.Click += new System.EventHandler(this.manageContractsToolStripMenuItem_Click);
             // 
             // manageProductsToolStripMenuItem
             // 
             this.manageProductsToolStripMenuItem.Name = "manageProductsToolStripMenuItem";
-            this.manageProductsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.manageProductsToolStripMenuItem.Size = new System.Drawing.Size(212, 26);
             this.manageProductsToolStripMenuItem.Text = "Manage Products";
             this.manageProductsToolStripMenuItem.Click += new System.EventHandler(this.manageProductsToolStripMenuItem_Click);
             // 
@@ -128,7 +128,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(832, 453);
+            this.ClientSize = new System.Drawing.Size(1572, 453);
             this.Controls.Add(this.menuStrip);
             this.MainMenuStrip = this.menuStrip;
             this.Name = "Main";

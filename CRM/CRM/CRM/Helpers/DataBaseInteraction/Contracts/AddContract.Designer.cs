@@ -35,13 +35,18 @@
             this.TXTB_Name = new System.Windows.Forms.TextBox();
             this.TXTB_SignDate = new System.Windows.Forms.TextBox();
             this.TXTB_ExpireDate = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BTN_Cancel
             // 
-            this.BTN_Cancel.Location = new System.Drawing.Point(32, 337);
+            this.BTN_Cancel.Location = new System.Drawing.Point(357, 139);
             this.BTN_Cancel.Name = "BTN_Cancel";
-            this.BTN_Cancel.Size = new System.Drawing.Size(211, 89);
+            this.BTN_Cancel.Size = new System.Drawing.Size(139, 67);
             this.BTN_Cancel.TabIndex = 1;
             this.BTN_Cancel.Text = "Cancel";
             this.BTN_Cancel.UseVisualStyleBackColor = true;
@@ -49,56 +54,108 @@
             // 
             // BTN_Add
             // 
-            this.BTN_Add.Location = new System.Drawing.Point(567, 311);
+            this.BTN_Add.BackColor = System.Drawing.Color.LightGreen;
+            this.BTN_Add.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.BTN_Add.Location = new System.Drawing.Point(357, 36);
             this.BTN_Add.Name = "BTN_Add";
-            this.BTN_Add.Size = new System.Drawing.Size(176, 89);
+            this.BTN_Add.Size = new System.Drawing.Size(139, 67);
             this.BTN_Add.TabIndex = 2;
             this.BTN_Add.Text = "Add Contract";
-            this.BTN_Add.UseVisualStyleBackColor = true;
+            this.BTN_Add.UseVisualStyleBackColor = false;
             this.BTN_Add.Click += new System.EventHandler(this.BTN_Add_Click);
             // 
             // CMBX_Clients
             // 
             this.CMBX_Clients.FormattingEnabled = true;
-            this.CMBX_Clients.Location = new System.Drawing.Point(28, 51);
+            this.CMBX_Clients.Location = new System.Drawing.Point(52, 55);
             this.CMBX_Clients.Name = "CMBX_Clients";
-            this.CMBX_Clients.Size = new System.Drawing.Size(114, 24);
+            this.CMBX_Clients.Size = new System.Drawing.Size(263, 24);
             this.CMBX_Clients.TabIndex = 3;
             // 
             // CMBX_Type
             // 
             this.CMBX_Type.FormattingEnabled = true;
-            this.CMBX_Type.Location = new System.Drawing.Point(26, 99);
+            this.CMBX_Type.Location = new System.Drawing.Point(52, 116);
             this.CMBX_Type.Name = "CMBX_Type";
-            this.CMBX_Type.Size = new System.Drawing.Size(115, 24);
+            this.CMBX_Type.Size = new System.Drawing.Size(263, 24);
             this.CMBX_Type.TabIndex = 4;
             // 
             // TXTB_Name
             // 
-            this.TXTB_Name.Location = new System.Drawing.Point(30, 146);
+            this.TXTB_Name.Location = new System.Drawing.Point(52, 174);
             this.TXTB_Name.Name = "TXTB_Name";
-            this.TXTB_Name.Size = new System.Drawing.Size(171, 22);
+            this.TXTB_Name.Size = new System.Drawing.Size(263, 22);
             this.TXTB_Name.TabIndex = 5;
             // 
             // TXTB_SignDate
             // 
-            this.TXTB_SignDate.Location = new System.Drawing.Point(32, 184);
+            this.TXTB_SignDate.Location = new System.Drawing.Point(52, 237);
             this.TXTB_SignDate.Name = "TXTB_SignDate";
-            this.TXTB_SignDate.Size = new System.Drawing.Size(171, 22);
+            this.TXTB_SignDate.Size = new System.Drawing.Size(263, 22);
             this.TXTB_SignDate.TabIndex = 9;
             // 
             // TXTB_ExpireDate
             // 
-            this.TXTB_ExpireDate.Location = new System.Drawing.Point(32, 237);
+            this.TXTB_ExpireDate.Location = new System.Drawing.Point(52, 298);
             this.TXTB_ExpireDate.Name = "TXTB_ExpireDate";
-            this.TXTB_ExpireDate.Size = new System.Drawing.Size(171, 22);
+            this.TXTB_ExpireDate.Size = new System.Drawing.Size(263, 22);
             this.TXTB_ExpireDate.TabIndex = 10;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(49, 36);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(47, 16);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Clients";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(49, 97);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(39, 16);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "Type";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(49, 155);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(44, 16);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Name";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(49, 218);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(66, 16);
+            this.label4.TabIndex = 14;
+            this.label4.Text = "Sign Date";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(49, 279);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(77, 16);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "Expire Date";
             // 
             // AddContract
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(543, 363);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.TXTB_ExpireDate);
             this.Controls.Add(this.TXTB_SignDate);
             this.Controls.Add(this.TXTB_Name);
@@ -122,5 +179,10 @@
         private System.Windows.Forms.TextBox TXTB_Name;
         private System.Windows.Forms.TextBox TXTB_SignDate;
         private System.Windows.Forms.TextBox TXTB_ExpireDate;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }

@@ -42,6 +42,7 @@
             this.BTN_Remove = new System.Windows.Forms.Button();
             this.BTN_Add = new System.Windows.Forms.Button();
             this.CMBX_Clients = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Contracts)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,12 +62,12 @@
             this.FinalProfit,
             this.Signed,
             this.Expires});
-            this.DGV_Contracts.Location = new System.Drawing.Point(6, 236);
+            this.DGV_Contracts.Location = new System.Drawing.Point(55, 44);
             this.DGV_Contracts.Name = "DGV_Contracts";
             this.DGV_Contracts.ReadOnly = true;
             this.DGV_Contracts.RowHeadersWidth = 51;
             this.DGV_Contracts.RowTemplate.Height = 24;
-            this.DGV_Contracts.Size = new System.Drawing.Size(1142, 159);
+            this.DGV_Contracts.Size = new System.Drawing.Size(1304, 248);
             this.DGV_Contracts.TabIndex = 2;
             // 
             // ID
@@ -151,9 +152,9 @@
             // 
             // BTN_Remove
             // 
-            this.BTN_Remove.Location = new System.Drawing.Point(902, 413);
+            this.BTN_Remove.Location = new System.Drawing.Point(1401, 225);
             this.BTN_Remove.Name = "BTN_Remove";
-            this.BTN_Remove.Size = new System.Drawing.Size(118, 77);
+            this.BTN_Remove.Size = new System.Drawing.Size(139, 67);
             this.BTN_Remove.TabIndex = 4;
             this.BTN_Remove.Text = "Remove Contract";
             this.BTN_Remove.UseVisualStyleBackColor = true;
@@ -161,7 +162,7 @@
             // 
             // BTN_Add
             // 
-            this.BTN_Add.Location = new System.Drawing.Point(604, 423);
+            this.BTN_Add.Location = new System.Drawing.Point(1401, 123);
             this.BTN_Add.Name = "BTN_Add";
             this.BTN_Add.Size = new System.Drawing.Size(139, 67);
             this.BTN_Add.TabIndex = 5;
@@ -172,24 +173,35 @@
             // CMBX_Clients
             // 
             this.CMBX_Clients.FormattingEnabled = true;
-            this.CMBX_Clients.Location = new System.Drawing.Point(249, 104);
+            this.CMBX_Clients.Location = new System.Drawing.Point(1401, 65);
             this.CMBX_Clients.Name = "CMBX_Clients";
-            this.CMBX_Clients.Size = new System.Drawing.Size(62, 24);
+            this.CMBX_Clients.Size = new System.Drawing.Size(139, 24);
             this.CMBX_Clients.TabIndex = 10;
             this.CMBX_Clients.SelectionChangeCommitted += new System.EventHandler(this.CMBX_Clients_SelectionChangeCommitted);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(1398, 46);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(63, 16);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Client List";
             // 
             // ContractManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.CMBX_Clients);
             this.Controls.Add(this.BTN_Add);
             this.Controls.Add(this.BTN_Remove);
             this.Controls.Add(this.DGV_Contracts);
             this.Name = "ContractManager";
-            this.Size = new System.Drawing.Size(1171, 565);
+            this.Size = new System.Drawing.Size(1590, 340);
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Contracts)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -208,5 +220,6 @@
         private System.Windows.Forms.Button BTN_Remove;
         private System.Windows.Forms.Button BTN_Add;
         private System.Windows.Forms.ComboBox CMBX_Clients;
+        private System.Windows.Forms.Label label1;
     }
 }

@@ -38,6 +38,7 @@
             this.BTN_Remove = new System.Windows.Forms.Button();
             this.BTN_Add = new System.Windows.Forms.Button();
             this.CMBX_Clients = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Events)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,12 +54,12 @@
             this.Date,
             this.Type,
             this.Description});
-            this.DGV_Events.Location = new System.Drawing.Point(25, 172);
+            this.DGV_Events.Location = new System.Drawing.Point(43, 48);
             this.DGV_Events.Name = "DGV_Events";
             this.DGV_Events.ReadOnly = true;
             this.DGV_Events.RowHeadersWidth = 51;
             this.DGV_Events.RowTemplate.Height = 24;
-            this.DGV_Events.Size = new System.Drawing.Size(814, 195);
+            this.DGV_Events.Size = new System.Drawing.Size(803, 248);
             this.DGV_Events.TabIndex = 2;
             // 
             // ID
@@ -111,9 +112,9 @@
             // 
             // BTN_Remove
             // 
-            this.BTN_Remove.Location = new System.Drawing.Point(606, 48);
+            this.BTN_Remove.Location = new System.Drawing.Point(882, 229);
             this.BTN_Remove.Name = "BTN_Remove";
-            this.BTN_Remove.Size = new System.Drawing.Size(118, 77);
+            this.BTN_Remove.Size = new System.Drawing.Size(139, 67);
             this.BTN_Remove.TabIndex = 5;
             this.BTN_Remove.Text = "Remove Event";
             this.BTN_Remove.UseVisualStyleBackColor = true;
@@ -121,7 +122,7 @@
             // 
             // BTN_Add
             // 
-            this.BTN_Add.Location = new System.Drawing.Point(342, 58);
+            this.BTN_Add.Location = new System.Drawing.Point(882, 132);
             this.BTN_Add.Name = "BTN_Add";
             this.BTN_Add.Size = new System.Drawing.Size(139, 67);
             this.BTN_Add.TabIndex = 6;
@@ -132,24 +133,35 @@
             // CMBX_Clients
             // 
             this.CMBX_Clients.FormattingEnabled = true;
-            this.CMBX_Clients.Location = new System.Drawing.Point(117, 48);
+            this.CMBX_Clients.Location = new System.Drawing.Point(882, 66);
             this.CMBX_Clients.Name = "CMBX_Clients";
-            this.CMBX_Clients.Size = new System.Drawing.Size(62, 24);
+            this.CMBX_Clients.Size = new System.Drawing.Size(139, 24);
             this.CMBX_Clients.TabIndex = 9;
             this.CMBX_Clients.SelectionChangeCommitted += new System.EventHandler(this.CMBX_Clients_SelectionChangeCommitted);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(879, 47);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(63, 16);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Client List";
             // 
             // EventManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.CMBX_Clients);
             this.Controls.Add(this.BTN_Add);
             this.Controls.Add(this.BTN_Remove);
             this.Controls.Add(this.DGV_Events);
             this.Name = "EventManager";
-            this.Size = new System.Drawing.Size(891, 398);
+            this.Size = new System.Drawing.Size(1070, 340);
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Events)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -164,5 +176,6 @@
         private System.Windows.Forms.Button BTN_Remove;
         private System.Windows.Forms.Button BTN_Add;
         private System.Windows.Forms.ComboBox CMBX_Clients;
+        private System.Windows.Forms.Label label1;
     }
 }

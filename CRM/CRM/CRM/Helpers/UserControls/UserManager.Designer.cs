@@ -48,12 +48,12 @@
             this.IsAdmin,
             this.Username,
             this.Password});
-            this.DGV_Users.Location = new System.Drawing.Point(67, 98);
+            this.DGV_Users.Location = new System.Drawing.Point(46, 45);
             this.DGV_Users.Name = "DGV_Users";
             this.DGV_Users.ReadOnly = true;
             this.DGV_Users.RowHeadersWidth = 51;
             this.DGV_Users.RowTemplate.Height = 24;
-            this.DGV_Users.Size = new System.Drawing.Size(592, 307);
+            this.DGV_Users.Size = new System.Drawing.Size(553, 248);
             this.DGV_Users.TabIndex = 2;
             // 
             // ID
@@ -90,9 +90,9 @@
             // 
             // BTN_Remove
             // 
-            this.BTN_Remove.Location = new System.Drawing.Point(760, 144);
+            this.BTN_Remove.Location = new System.Drawing.Point(645, 140);
             this.BTN_Remove.Name = "BTN_Remove";
-            this.BTN_Remove.Size = new System.Drawing.Size(118, 77);
+            this.BTN_Remove.Size = new System.Drawing.Size(135, 67);
             this.BTN_Remove.TabIndex = 7;
             this.BTN_Remove.Text = "Remove User";
             this.BTN_Remove.UseVisualStyleBackColor = true;
@@ -100,9 +100,9 @@
             // 
             // BTN_Add
             // 
-            this.BTN_Add.Location = new System.Drawing.Point(739, 285);
+            this.BTN_Add.Location = new System.Drawing.Point(645, 45);
             this.BTN_Add.Name = "BTN_Add";
-            this.BTN_Add.Size = new System.Drawing.Size(139, 67);
+            this.BTN_Add.Size = new System.Drawing.Size(135, 67);
             this.BTN_Add.TabIndex = 8;
             this.BTN_Add.Text = "Add User";
             this.BTN_Add.UseVisualStyleBackColor = true;
@@ -116,7 +116,7 @@
             this.Controls.Add(this.BTN_Remove);
             this.Controls.Add(this.DGV_Users);
             this.Name = "UserManager";
-            this.Size = new System.Drawing.Size(984, 444);
+            this.Size = new System.Drawing.Size(825, 340);
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Users)).EndInit();
             this.ResumeLayout(false);
 
