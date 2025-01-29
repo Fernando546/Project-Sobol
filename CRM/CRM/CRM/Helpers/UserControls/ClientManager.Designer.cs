@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.DGV_Clients = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this._Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.LastContact = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -39,29 +39,29 @@
             this.BTN_Remove = new System.Windows.Forms.Button();
             this.clientsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.clientsBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_Clients)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.clientsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.clientsBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // DGV_Clients
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.DGV_Clients.AllowUserToAddRows = false;
+            this.DGV_Clients.AllowUserToDeleteRows = false;
+            this.DGV_Clients.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGV_Clients.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
             this._Name,
             this.LastContact,
             this.Phone,
             this.EMail});
-            this.dataGridView1.Location = new System.Drawing.Point(21, 232);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(699, 127);
-            this.dataGridView1.TabIndex = 1;
+            this.DGV_Clients.Location = new System.Drawing.Point(21, 232);
+            this.DGV_Clients.Name = "DGV_Clients";
+            this.DGV_Clients.ReadOnly = true;
+            this.DGV_Clients.RowHeadersWidth = 51;
+            this.DGV_Clients.RowTemplate.Height = 24;
+            this.DGV_Clients.Size = new System.Drawing.Size(699, 127);
+            this.DGV_Clients.TabIndex = 1;
             // 
             // ID
             // 
@@ -137,10 +137,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.BTN_Remove);
             this.Controls.Add(this.BTN_Add);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.DGV_Clients);
             this.Name = "ClientManager";
             this.Size = new System.Drawing.Size(861, 460);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_Clients)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.clientsBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.clientsBindingSource1)).EndInit();
             this.ResumeLayout(false);
@@ -149,7 +149,7 @@
 
         #endregion
         private System.Windows.Forms.BindingSource clientsBindingSource;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView DGV_Clients;
         private System.Windows.Forms.BindingSource clientsBindingSource1;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn _Name;

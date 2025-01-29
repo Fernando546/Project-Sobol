@@ -41,14 +41,19 @@ namespace CRM.Helpers.UserControls
             QueryDBAndFillTable();
         }
 
-        internal void QueryDBAndFillTable() //po kliencie i emp
+        internal void QueryDBAndFillTable()
         {
             var clients = DataBaseGetter.GetClients();
-            foreach (var client in clients)
-            {
-                //fill table
-            }
 
+            if (clients != null)
+            {
+                DGV_Clients.Rows.Clear();
+
+                foreach (var client in clients)
+                {
+                    DGV_Clients.Rows.Add(client.ID.ToString(), client.Name, client.LastContact.ToString(), client.Phone, client.EMail);
+                }
+            }
         }
     }
 }

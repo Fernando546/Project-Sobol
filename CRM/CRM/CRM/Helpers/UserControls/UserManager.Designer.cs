@@ -28,33 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.DGV_Users = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.IsAdmin = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Username = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Password = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.BTN_Remove = new System.Windows.Forms.Button();
             this.BTN_Add = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_Users)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // DGV_Users
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.DGV_Users.AllowUserToAddRows = false;
+            this.DGV_Users.AllowUserToDeleteRows = false;
+            this.DGV_Users.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGV_Users.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
             this.IsAdmin,
             this.Username,
             this.Password});
-            this.dataGridView1.Location = new System.Drawing.Point(67, 98);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(592, 307);
-            this.dataGridView1.TabIndex = 2;
+            this.DGV_Users.Location = new System.Drawing.Point(67, 98);
+            this.DGV_Users.Name = "DGV_Users";
+            this.DGV_Users.ReadOnly = true;
+            this.DGV_Users.RowHeadersWidth = 51;
+            this.DGV_Users.RowTemplate.Height = 24;
+            this.DGV_Users.Size = new System.Drawing.Size(592, 307);
+            this.DGV_Users.TabIndex = 2;
             // 
             // ID
             // 
@@ -114,16 +114,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.BTN_Add);
             this.Controls.Add(this.BTN_Remove);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.DGV_Users);
             this.Name = "UserManager";
             this.Size = new System.Drawing.Size(984, 444);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_Users)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView DGV_Users;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn IsAdmin;
         private System.Windows.Forms.DataGridViewTextBoxColumn Username;

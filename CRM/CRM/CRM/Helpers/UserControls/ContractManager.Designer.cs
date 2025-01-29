@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.DGV_Contracts = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Employee = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Client = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -42,15 +42,15 @@
             this.BTN_Remove = new System.Windows.Forms.Button();
             this.BTN_Add = new System.Windows.Forms.Button();
             this.CMBX_Clients = new System.Windows.Forms.ComboBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_Contracts)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // DGV_Contracts
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.DGV_Contracts.AllowUserToAddRows = false;
+            this.DGV_Contracts.AllowUserToDeleteRows = false;
+            this.DGV_Contracts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGV_Contracts.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
             this.Employee,
             this.Client,
@@ -61,13 +61,13 @@
             this.FinalProfit,
             this.Signed,
             this.Expires});
-            this.dataGridView1.Location = new System.Drawing.Point(3, 236);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1142, 159);
-            this.dataGridView1.TabIndex = 2;
+            this.DGV_Contracts.Location = new System.Drawing.Point(6, 236);
+            this.DGV_Contracts.Name = "DGV_Contracts";
+            this.DGV_Contracts.ReadOnly = true;
+            this.DGV_Contracts.RowHeadersWidth = 51;
+            this.DGV_Contracts.RowTemplate.Height = 24;
+            this.DGV_Contracts.Size = new System.Drawing.Size(1142, 159);
+            this.DGV_Contracts.TabIndex = 2;
             // 
             // ID
             // 
@@ -185,16 +185,16 @@
             this.Controls.Add(this.CMBX_Clients);
             this.Controls.Add(this.BTN_Add);
             this.Controls.Add(this.BTN_Remove);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.DGV_Contracts);
             this.Name = "ContractManager";
             this.Size = new System.Drawing.Size(1171, 565);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_Contracts)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView DGV_Contracts;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn Employee;
         private System.Windows.Forms.DataGridViewTextBoxColumn Client;

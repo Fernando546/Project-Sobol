@@ -1,4 +1,5 @@
-﻿using CRM.Helpers.DataBaseInteraction;
+﻿using CRM.Enums;
+using CRM.Helpers.DataBaseInteraction;
 using CRM.Helpers.DataBaseInteraction.Contracts;
 using CRM.Helpers.DataBaseInteraction.Events;
 using CRM.Helpers.DatabaseObjects;
@@ -51,21 +52,33 @@ namespace CRM.Helpers.UserControls
 
             _clients = DataBaseGetter.GetClients();
 
-            foreach (var client in _clients)
+            if (_clients != null)
             {
-                CMBX_Clients.Items.Add(client.Name);
+                foreach (var client in _clients)
+                {
+                    CMBX_Clients.Items.Add(string.Concat(client.ID.ToString(), " ", client.Name));
+                }
             }
         }
 
         internal void QueryDBAndFillTable() //po kliencie i emp
         {
             QueryDBforClients();
+            FillTable();
+        }
 
+        private void CMBX_Clients_SelectionChangeCommitted(object sender, System.EventArgs e)
+        {
+            FillTable();
+        }
+
+        private void FillTable()
+        {
             if (CMBX_Clients.SelectedIndex >= 0)
             {
                 List<Contracts> contracts;
 
-                if(_isAdmin)
+                if (_isAdmin)
                 {
                     contracts = DataBaseGetter.GetContractsByClient((int)_clients[CMBX_Clients.SelectedIndex].ID.Value);
                 }
@@ -74,16 +87,42 @@ namespace CRM.Helpers.UserControls
                     contracts = DataBaseGetter.GetContractsByUserAndClient(_userID, (int)_clients[CMBX_Clients.SelectedIndex].ID.Value);
                 }
 
-                foreach (var contract in contracts)
+                if (contracts != null)
                 {
-                    //dodawanie do tabeli
+                    DGV_Contracts.Rows.Clear();
+
+                    foreach (var contract in contracts)
+                    {
+                        //change user id to name
+                        DGV_Contracts.Rows.Add(contract.ID.ToString(), contract.EmployeeID.ToString(), contract.ClientID.ToString(), ParseType(contract.Type), contract.Name, contract.Cost.ToString(), contract.Profit.ToString(), contract.FinalProfit.ToString(), contract.SignDate.ToString(), contract.ExpireDate.ToString());
+                    }
                 }
             }
         }
 
-        private void CMBX_Clients_SelectionChangeCommitted(object sender, System.EventArgs e)
+        private string ParseType(string type)
         {
-            throw new NotImplementedException();
+            ContractTypes parsedType;
+
+            if (!Enum.TryParse<ContractTypes>(type.ToString(), out parsedType))
+            {
+                return "Unregistered type";
+            }
+
+            switch (parsedType)
+            {
+                case ContractTypes.B:
+                    return "Buy";
+
+                case ContractTypes.S:
+                    return "Sell";
+
+                case ContractTypes.BS:
+                    return "Buy/Sell";
+
+                default:
+                    return "Unregistered type";
+            }
         }
     }
 }

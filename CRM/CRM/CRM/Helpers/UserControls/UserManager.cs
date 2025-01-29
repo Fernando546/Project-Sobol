@@ -39,11 +39,16 @@ namespace CRM.Helpers.UserControls
         internal void QueryDBAndFillTable()
         {
             var users = DataBaseGetter.GetEmployees();
-            foreach (var user in users)
+
+            if (users != null)
             {
-                //dodawanie do tabeli
-            }
-           
+                DGV_Users.Rows.Clear();
+
+                foreach (var user in users)
+                {
+                    DGV_Users.Rows.Add(user.ID.ToString(), user.Admin.ToString(), user.Username, user.Password);
+                }
+            }  
         }
     }
 }

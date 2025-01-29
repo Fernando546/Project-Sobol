@@ -1,4 +1,5 @@
-﻿using CRM.Helpers.DataBaseInteraction;
+﻿using CRM.Enums;
+using CRM.Helpers.DataBaseInteraction;
 using CRM.Helpers.DataBaseInteraction.Events;
 using CRM.Helpers.DatabaseObjects;
 using System;
@@ -50,9 +51,12 @@ namespace CRM.Helpers.UserControls
 
             _clients = DataBaseGetter.GetClients();
 
-            foreach (var client in _clients)
+            if (_clients != null)
             {
-                CMBX_Clients.Items.Add(client.Name);
+                foreach (var client in _clients)
+                {
+                    CMBX_Clients.Items.Add(client.Name);
+                }
             }
         }
 
@@ -60,6 +64,16 @@ namespace CRM.Helpers.UserControls
         {
             QueryDBforClients();
 
+            FillTable();
+        }
+
+        private void CMBX_Clients_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            FillTable();
+        }
+
+        private void FillTable()
+        {
             if (CMBX_Clients.SelectedIndex >= 0)
             {
                 List<Events> events;
@@ -73,18 +87,57 @@ namespace CRM.Helpers.UserControls
                     events = DataBaseGetter.GetEventsByUserAndClient(_userID, (int)_clients[CMBX_Clients.SelectedIndex].ID.Value);
                 }
 
-                foreach (var event_ in events)
+                if (events != null)
                 {
+                    DGV_Events.Rows.Clear();
 
-
-                    //dodawanie do tabeli
+                    foreach (var event_ in events)
+                    {
+                        //change user id to name
+                        DGV_Events.Rows.Add(event_.ID.ToString(), event_.ClientID.ToString(), event_.EmployeeID.ToString(), event_.Date.ToString(), ParseType(event_.Type),event_.Description);
+                    }
                 }
             }
         }
 
-        private void CMBX_Clients_SelectionChangeCommitted(object sender, EventArgs e)
+        private string ParseType(char type)
         {
-            throw new NotImplementedException();
+            EventTypes parsedType;
+
+            if(!Enum.TryParse<EventTypes>(type.ToString(), out parsedType))
+            {
+                return "Unregistered type";
+            }
+
+            switch (parsedType)
+            {
+                case EventTypes.DissolutionOfContract:
+                    return "Breach of contract";
+
+                case EventTypes.ContractPreeleminaryArrangement:
+                    return "Preeliminary contract arrangement";
+
+                case EventTypes.ContractResigning:
+                    return "Resigning of contract";
+
+                case EventTypes.ContractSigning:
+                    return "Signing of contract";
+
+                case EventTypes.EmergencyContact:
+                    return "Emergency contact";
+
+                case EventTypes.FirstContactCTE:
+                    return "First contact client-employee";
+
+                case EventTypes.FirstContactETC:
+                    return "First contact employee-client";
+
+                case EventTypes.FollowUpContact:
+                    return "Regulat follow-up contact";
+
+                default:
+                    return "Unregistered type";
+            }
         }
     }
 }

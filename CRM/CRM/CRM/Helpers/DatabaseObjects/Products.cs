@@ -9,7 +9,7 @@ namespace CRM.Helpers.DatabaseObjects
         internal SqlInt64 ID;
         internal SqlInt64 ContractID;
         internal string Name;
-        internal SqlMoney money;
+        internal SqlMoney Cost;
         internal SqlBoolean Type;
         internal SqlInt64 Amount;
     }

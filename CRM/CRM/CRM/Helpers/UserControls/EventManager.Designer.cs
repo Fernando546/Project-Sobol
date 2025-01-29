@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.DGV_Events = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Client = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Employee = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -38,28 +38,28 @@
             this.BTN_Remove = new System.Windows.Forms.Button();
             this.BTN_Add = new System.Windows.Forms.Button();
             this.CMBX_Clients = new System.Windows.Forms.ComboBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_Events)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // DGV_Events
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.DGV_Events.AllowUserToAddRows = false;
+            this.DGV_Events.AllowUserToDeleteRows = false;
+            this.DGV_Events.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGV_Events.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
             this.Client,
             this.Employee,
             this.Date,
             this.Type,
             this.Description});
-            this.dataGridView1.Location = new System.Drawing.Point(25, 172);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(814, 195);
-            this.dataGridView1.TabIndex = 2;
+            this.DGV_Events.Location = new System.Drawing.Point(25, 172);
+            this.DGV_Events.Name = "DGV_Events";
+            this.DGV_Events.ReadOnly = true;
+            this.DGV_Events.RowHeadersWidth = 51;
+            this.DGV_Events.RowTemplate.Height = 24;
+            this.DGV_Events.Size = new System.Drawing.Size(814, 195);
+            this.DGV_Events.TabIndex = 2;
             // 
             // ID
             // 
@@ -145,16 +145,16 @@
             this.Controls.Add(this.CMBX_Clients);
             this.Controls.Add(this.BTN_Add);
             this.Controls.Add(this.BTN_Remove);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.DGV_Events);
             this.Name = "EventManager";
             this.Size = new System.Drawing.Size(891, 398);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGV_Events)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView DGV_Events;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn Client;
         private System.Windows.Forms.DataGridViewTextBoxColumn Employee;

@@ -58,9 +58,12 @@ namespace CRM.Helpers.UserControls
                 //query for user contracts
             }
 
-            foreach (var contract in _contracts)
+            if(_contracts != null)
             {
-                CMBX_Contracts.Items.Add(contract.Name);
+                foreach (var contract in _contracts)
+                {
+                    CMBX_Contracts.Items.Add(contract.Name);
+                }
             }
         }
 
@@ -68,7 +71,17 @@ namespace CRM.Helpers.UserControls
         {
             QueryDBforContracts();
 
-            if(CMBX_Contracts.SelectedIndex >= 0)
+            FillTable();
+        }
+
+        private void CMBX_Contracts_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            FillTable();
+        }
+
+        private void FillTable()
+        {
+            if (CMBX_Contracts.SelectedIndex >= 0)
             {
                 List<Products> products;
                 if (CMBX_Contracts.SelectedIndex == 0 && _isAdmin) //all clients is selected
@@ -79,23 +92,23 @@ namespace CRM.Helpers.UserControls
                 {
                     products = DataBaseGetter.GetProductsByContract((int)_contracts[CMBX_Contracts.SelectedIndex - 1].ID.Value);
                 }
-                else 
+                else
                 {
                     products = DataBaseGetter.GetProductsByContract((int)_contracts[CMBX_Contracts.SelectedIndex].ID.Value);
                 }
 
-                foreach (var product in products)
+                if (products != null)
                 {
-                    
+                    DGV_Products.Rows.Clear();
 
-                    //dodawanie do tabeli
+                    foreach (var product in products)
+                    {
+                        DGV_Products.Rows.Add(product.ID.ToString(), product.ContractID.ToString(), product.Name, product.Cost.ToString(), ParseType(product.Type.Value), product.Amount.ToString());
+                    }
                 }
             }
         }
 
-        private void CMBX_Contracts_SelectionChangeCommitted(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
-        }
+        private string ParseType(bool type) => type ? "Buy" : "Sell";
     }
 }
