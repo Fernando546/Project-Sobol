@@ -1,14 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Data.SqlTypes;
-using System.Drawing;
-using System.Drawing.Text;
 using System.Globalization;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CRM.Helpers.DataBaseInteraction.Clients
@@ -31,6 +24,7 @@ namespace CRM.Helpers.DataBaseInteraction.Clients
             if (ValidateData())
             {
                 DatabaseObjects.Clients client = new DatabaseObjects.Clients();
+                client.ID = 0; // change
                 client.Name = TXTB_Name.Text;
                 client.LastContact = SqlDateTime.Parse(TXTB_LastContact.Text);
                 client.Phone = TXTB_Phone.Text;
