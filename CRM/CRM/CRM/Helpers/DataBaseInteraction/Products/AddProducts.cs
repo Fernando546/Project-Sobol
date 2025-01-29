@@ -30,7 +30,7 @@ namespace CRM.Helpers.DataBaseInteraction.Products
                 product.Name = TXTB_Name.Text;
                 product.Cost = SqlMoney.Parse(TXTB_Price.Text);
                 product.Type = SqlBoolean.Parse(SelectType(CMBX_Type.Text).ToString());
-                product.Amount = SqlInt64.Parse(TXTB_Count.Text);
+                product.Amount = SqlInt32.Parse(TXTB_Count.Text);
 
                 DBAddQuery(product);
             }

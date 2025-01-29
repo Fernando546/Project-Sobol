@@ -1,16 +1,14 @@
-﻿using System;
-using System.Data.SqlTypes;
-using System.Runtime.CompilerServices;
+﻿using System.Data.SqlTypes;
 
 namespace CRM.Helpers.DatabaseObjects
 {
     internal class Products
     {
-        internal SqlInt64 ID;
-        internal SqlInt64 ContractID;
+        internal SqlInt32 ID;
+        internal SqlInt32 ContractID;
         internal string Name;
         internal SqlMoney Cost;
         internal SqlBoolean Type;
-        internal SqlInt64 Amount;
+        internal SqlInt32 Amount;
     }
 }

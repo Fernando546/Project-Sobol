@@ -167,12 +167,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Helpers\DataBaseInteraction\Clients\AddClient.resx">
       <DependentUpon>AddClient.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Helpers\DataBaseInteraction\Clients\RemoveClient.resx">
       <DependentUpon>RemoveClient.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Helpers\DataBaseInteraction\Contracts\AddContract.resx">
       <DependentUpon>AddContract.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Helpers\DataBaseInteraction\Contracts\RemoveContract.resx">
       <DependentUpon>RemoveContract.cs</DependentUpon>
