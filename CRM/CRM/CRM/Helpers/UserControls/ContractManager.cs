@@ -41,6 +41,10 @@ namespace CRM.Helpers.UserControls
                 addContract.ShowDialog();
                 QueryDBAndFillTable();
             }
+            else
+            {
+                MessageBox.Show("Client has to be selected first");
+            }
         }
 
         private void BTN_Remove_Click(object sender, System.EventArgs e)
@@ -66,10 +70,6 @@ namespace CRM.Helpers.UserControls
                 {
                     CMBX_Clients.Items.Add(string.Concat(client.ID.ToString(), " ", client.Name));
                 }
-            }
-            else
-            {
-                MessageBox.Show("Client has to be selected first");
             }
         }
 

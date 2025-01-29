@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data.SqlClient;
 using System.Data.SqlTypes;
 using System.Globalization;
 using System.Linq;
@@ -24,13 +25,22 @@ namespace CRM.Helpers.DataBaseInteraction.Clients
             if (ValidateData())
             {
                 DatabaseObjects.Clients client = new DatabaseObjects.Clients();
-                client.ID = 0; // change
+                client.ID = DataBaseGetter.GetMaxID("Clients") + 1;
                 client.Name = TXTB_Name.Text;
                 client.LastContact = SqlDateTime.Parse(TXTB_LastContact.Text);
                 client.Phone = TXTB_Phone.Text;
                 client.EMail = TXTB_EMail.Text;
 
-                DBAddQuery(client);
+                if(DBAddQuery(client))
+                {
+                    MessageBox.Show("Client added successfully");
+                    Close();
+                }
+                else
+                {
+                    MessageBox.Show("Error adding client");
+                }
+                
             }
         }
 
@@ -41,17 +51,17 @@ namespace CRM.Helpers.DataBaseInteraction.Clients
                 MessageBox.Show("Name field should be filled");
                 return false;
             }
-            else if (ValidateDate(TXTB_LastContact.Text))
+            else if (!ValidateDate(TXTB_LastContact.Text))
             {
                 MessageBox.Show("Date has incorrect format, should be: [yyyy-MM-dd]");
                 return false;
             }
-            else if (ValidatePhone(TXTB_Phone.Text))
+            else if (!ValidatePhone(TXTB_Phone.Text))
             {
                 MessageBox.Show("Phone number is incorrect");
                 return false;
             }
-            else if (ValidateEmail(TXTB_EMail.Text))
+            else if (!ValidateEmail(TXTB_EMail.Text))
             {
                 MessageBox.Show("Email address is incorrect");
                 return false;
@@ -78,21 +88,28 @@ namespace CRM.Helpers.DataBaseInteraction.Clients
 
         private bool ValidatePhone(string phone)
         {
-            if (phone.ElementAt(0) == '+')
+            if(phone.Length > 0)
             {
-                phone = phone.Substring(1);
-            }
+                if (phone.ElementAt(0) == '+')
+                {
+                    phone = phone.Substring(1);
+                }
 
-            if (!int.TryParse(phone, out var result))
+                if (!int.TryParse(phone, out var result))
+                {
+                    return false;
+                }
+                else if (result < 0)
+                {
+                    return false;
+                }
+
+                return true;
+            }
+            else
             {
                 return false;
-            }
-            else if (result < 0)
-            {
-                return false;
-            }
-
-            return true;
+            }   
         }
 
         private bool ValidateEmail(string email)
@@ -113,9 +130,23 @@ namespace CRM.Helpers.DataBaseInteraction.Clients
             }
         }
 
-        private void DBAddQuery(DatabaseObjects.Clients client)
+        private bool DBAddQuery(DatabaseObjects.Clients client)
         {
-            throw new NotImplementedException();
-        }  
+            string query = "INSERT INTO Clients (ID, Name, LastContact, Phone, EMail) VALUES (@ID, @Name, @LastContact, @Phone, @EMail)";
+
+            using (SqlConnection conn = new SqlConnection(Program.DATABASE_SOURCE))
+            using (SqlCommand cmd = new SqlCommand(query, conn))
+            {
+                conn.Open();
+                cmd.Parameters.AddWithValue("@ID", client.ID);
+                cmd.Parameters.AddWithValue("@Name", client.Name);
+                cmd.Parameters.AddWithValue("@LastContact", client.LastContact);
+                cmd.Parameters.AddWithValue("@Phone", client.Phone);
+                cmd.Parameters.AddWithValue("@EMail", client.EMail);
+                cmd.ExecuteNonQuery();
+            }
+
+            return true;
+        }
     }
 }
