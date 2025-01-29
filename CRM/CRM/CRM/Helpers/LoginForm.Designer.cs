@@ -111,6 +111,7 @@
             this.Controls.Add(this.TXTB_Password);
             this.Controls.Add(this.TXTB_Username);
             this.Controls.Add(this.BTN_Login);
+            this.DoubleBuffered = true;
             this.Name = "LoginForm";
             this.Text = "Login";
             this.ResumeLayout(false);
