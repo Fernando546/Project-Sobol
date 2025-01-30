@@ -5,7 +5,7 @@ namespace CRM
 {
     internal static class Program
     {
-        internal const string DATABASE_SOURCE = "Server=DESKTOP-N5TKGGQ\\SIWZPL8;Database=DB_CRM;Integrated Security=True;";
+        internal static string DATABASE_SOURCE = "Server=DESKTOP-N5TKGGQ\\SIWZPL8;Database=DB_CRM;Integrated Security=True;";
         /// <summary>
         /// The main entry point for the application.
         /// </summary>

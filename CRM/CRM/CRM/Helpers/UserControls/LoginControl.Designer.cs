@@ -30,6 +30,10 @@
         {
             this.BTN_Login = new System.Windows.Forms.Button();
             this.BTN_Exit = new System.Windows.Forms.Button();
+            this.TXTB_Server = new System.Windows.Forms.TextBox();
+            this.TXTB_Database = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BTN_Login
@@ -52,15 +56,52 @@
             this.BTN_Exit.UseVisualStyleBackColor = true;
             this.BTN_Exit.Click += new System.EventHandler(this.BTN_Exit_Click);
             // 
+            // TXTB_Server
+            // 
+            this.TXTB_Server.Location = new System.Drawing.Point(232, 52);
+            this.TXTB_Server.Name = "TXTB_Server";
+            this.TXTB_Server.Size = new System.Drawing.Size(109, 22);
+            this.TXTB_Server.TabIndex = 2;
+            // 
+            // TXTB_Database
+            // 
+            this.TXTB_Database.Location = new System.Drawing.Point(393, 52);
+            this.TXTB_Database.Name = "TXTB_Database";
+            this.TXTB_Database.Size = new System.Drawing.Size(109, 22);
+            this.TXTB_Database.TabIndex = 3;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(227, 18);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(47, 16);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Server";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(390, 18);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(70, 16);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Database ";
+            // 
             // LoginControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.TXTB_Database);
+            this.Controls.Add(this.TXTB_Server);
             this.Controls.Add(this.BTN_Exit);
             this.Controls.Add(this.BTN_Login);
             this.Name = "LoginControl";
             this.Size = new System.Drawing.Size(800, 99);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -68,5 +109,9 @@
 
         private System.Windows.Forms.Button BTN_Login;
         private System.Windows.Forms.Button BTN_Exit;
+        private System.Windows.Forms.TextBox TXTB_Server;
+        private System.Windows.Forms.TextBox TXTB_Database;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
