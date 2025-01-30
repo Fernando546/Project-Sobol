@@ -90,7 +90,7 @@ namespace CRM
         {
             if (!_loginData.isAdmin)
             {
-                MessageBox.Show("Clients tab requires administator privilages\nContact your database administrator for further instructions");
+                MessageBox.Show("Clients tab requires administrator privileges.\r\nContact your database administrator for further instructions");
             }
             else
             {

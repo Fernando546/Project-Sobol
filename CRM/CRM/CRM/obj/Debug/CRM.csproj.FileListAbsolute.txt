@@ -53,3 +53,4 @@ C:\Users\ferer\Source\Repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.csproj.CoreC
 C:\Users\ferer\Source\Repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.exe
 C:\Users\ferer\Source\Repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.pdb
 C:\Users\Admin\source\repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.Helpers.DataBaseInteraction.Products.AddProductName.resources
+C:\Users\ferer\Source\Repos\Project-Sobol\CRM\CRM\CRM\obj\Debug\CRM.Helpers.DataBaseInteraction.Products.AddProductName.resources

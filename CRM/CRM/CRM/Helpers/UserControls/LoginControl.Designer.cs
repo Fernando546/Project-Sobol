@@ -38,9 +38,10 @@
             // 
             // BTN_Login
             // 
-            this.BTN_Login.Location = new System.Drawing.Point(619, 14);
+            this.BTN_Login.Location = new System.Drawing.Point(959, 22);
+            this.BTN_Login.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BTN_Login.Name = "BTN_Login";
-            this.BTN_Login.Size = new System.Drawing.Size(148, 69);
+            this.BTN_Login.Size = new System.Drawing.Size(222, 108);
             this.BTN_Login.TabIndex = 0;
             this.BTN_Login.Text = "Login";
             this.BTN_Login.UseVisualStyleBackColor = true;
@@ -48,9 +49,10 @@
             // 
             // BTN_Exit
             // 
-            this.BTN_Exit.Location = new System.Drawing.Point(15, 14);
+            this.BTN_Exit.Location = new System.Drawing.Point(22, 22);
+            this.BTN_Exit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BTN_Exit.Name = "BTN_Exit";
-            this.BTN_Exit.Size = new System.Drawing.Size(148, 69);
+            this.BTN_Exit.Size = new System.Drawing.Size(222, 108);
             this.BTN_Exit.TabIndex = 1;
             this.BTN_Exit.Text = "Exit";
             this.BTN_Exit.UseVisualStyleBackColor = true;
@@ -58,39 +60,43 @@
             // 
             // TXTB_Server
             // 
-            this.TXTB_Server.Location = new System.Drawing.Point(232, 52);
+            this.TXTB_Server.Location = new System.Drawing.Point(348, 81);
+            this.TXTB_Server.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TXTB_Server.Name = "TXTB_Server";
-            this.TXTB_Server.Size = new System.Drawing.Size(109, 22);
+            this.TXTB_Server.Size = new System.Drawing.Size(162, 31);
             this.TXTB_Server.TabIndex = 2;
             // 
             // TXTB_Database
             // 
-            this.TXTB_Database.Location = new System.Drawing.Point(393, 52);
+            this.TXTB_Database.Location = new System.Drawing.Point(590, 81);
+            this.TXTB_Database.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TXTB_Database.Name = "TXTB_Database";
-            this.TXTB_Database.Size = new System.Drawing.Size(109, 22);
+            this.TXTB_Database.Size = new System.Drawing.Size(162, 31);
             this.TXTB_Database.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(227, 18);
+            this.label1.Location = new System.Drawing.Point(343, 51);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(47, 16);
+            this.label1.Size = new System.Drawing.Size(75, 25);
             this.label1.TabIndex = 4;
             this.label1.Text = "Server";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(390, 18);
+            this.label2.Location = new System.Drawing.Point(585, 51);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 16);
+            this.label2.Size = new System.Drawing.Size(110, 25);
             this.label2.TabIndex = 5;
             this.label2.Text = "Database ";
             // 
             // LoginControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -98,8 +104,9 @@
             this.Controls.Add(this.TXTB_Server);
             this.Controls.Add(this.BTN_Exit);
             this.Controls.Add(this.BTN_Login);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "LoginControl";
-            this.Size = new System.Drawing.Size(800, 99);
+            this.Size = new System.Drawing.Size(1200, 155);
             this.ResumeLayout(false);
             this.PerformLayout();
 
