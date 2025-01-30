@@ -54,12 +54,13 @@
             this.Date,
             this.Type,
             this.Description});
-            this.DGV_Events.Location = new System.Drawing.Point(43, 48);
+            this.DGV_Events.Location = new System.Drawing.Point(32, 39);
+            this.DGV_Events.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.DGV_Events.Name = "DGV_Events";
             this.DGV_Events.ReadOnly = true;
             this.DGV_Events.RowHeadersWidth = 51;
             this.DGV_Events.RowTemplate.Height = 24;
-            this.DGV_Events.Size = new System.Drawing.Size(803, 248);
+            this.DGV_Events.Size = new System.Drawing.Size(663, 202);
             this.DGV_Events.TabIndex = 2;
             // 
             // ID
@@ -112,9 +113,10 @@
             // 
             // BTN_Remove
             // 
-            this.BTN_Remove.Location = new System.Drawing.Point(882, 229);
+            this.BTN_Remove.Location = new System.Drawing.Point(459, 261);
+            this.BTN_Remove.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BTN_Remove.Name = "BTN_Remove";
-            this.BTN_Remove.Size = new System.Drawing.Size(139, 67);
+            this.BTN_Remove.Size = new System.Drawing.Size(104, 54);
             this.BTN_Remove.TabIndex = 5;
             this.BTN_Remove.Text = "Remove Event";
             this.BTN_Remove.UseVisualStyleBackColor = true;
@@ -122,9 +124,10 @@
             // 
             // BTN_Add
             // 
-            this.BTN_Add.Location = new System.Drawing.Point(882, 132);
+            this.BTN_Add.Location = new System.Drawing.Point(325, 261);
+            this.BTN_Add.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BTN_Add.Name = "BTN_Add";
-            this.BTN_Add.Size = new System.Drawing.Size(139, 67);
+            this.BTN_Add.Size = new System.Drawing.Size(104, 54);
             this.BTN_Add.TabIndex = 6;
             this.BTN_Add.Text = "Add Event";
             this.BTN_Add.UseVisualStyleBackColor = true;
@@ -133,32 +136,35 @@
             // CMBX_Clients
             // 
             this.CMBX_Clients.FormattingEnabled = true;
-            this.CMBX_Clients.Location = new System.Drawing.Point(882, 66);
+            this.CMBX_Clients.Location = new System.Drawing.Point(186, 279);
+            this.CMBX_Clients.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CMBX_Clients.Name = "CMBX_Clients";
-            this.CMBX_Clients.Size = new System.Drawing.Size(139, 24);
+            this.CMBX_Clients.Size = new System.Drawing.Size(105, 21);
             this.CMBX_Clients.TabIndex = 9;
             this.CMBX_Clients.SelectionChangeCommitted += new System.EventHandler(this.CMBX_Clients_SelectionChangeCommitted);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(879, 47);
+            this.label1.Location = new System.Drawing.Point(183, 263);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 16);
+            this.label1.Size = new System.Drawing.Size(52, 13);
             this.label1.TabIndex = 10;
             this.label1.Text = "Client List";
             // 
             // EventManager
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.label1);
             this.Controls.Add(this.CMBX_Clients);
             this.Controls.Add(this.BTN_Add);
             this.Controls.Add(this.BTN_Remove);
             this.Controls.Add(this.DGV_Events);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "EventManager";
-            this.Size = new System.Drawing.Size(1070, 340);
+            this.Size = new System.Drawing.Size(738, 407);
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Events)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

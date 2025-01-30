@@ -55,12 +55,13 @@
             this.LastContact,
             this.Phone,
             this.EMail});
-            this.DGV_Clients.Location = new System.Drawing.Point(43, 46);
+            this.DGV_Clients.Location = new System.Drawing.Point(32, 37);
+            this.DGV_Clients.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.DGV_Clients.Name = "DGV_Clients";
             this.DGV_Clients.ReadOnly = true;
             this.DGV_Clients.RowHeadersWidth = 51;
             this.DGV_Clients.RowTemplate.Height = 24;
-            this.DGV_Clients.Size = new System.Drawing.Size(678, 248);
+            this.DGV_Clients.Size = new System.Drawing.Size(508, 202);
             this.DGV_Clients.TabIndex = 1;
             // 
             // ID
@@ -105,9 +106,10 @@
             // 
             // BTN_Add
             // 
-            this.BTN_Add.Location = new System.Drawing.Point(760, 46);
+            this.BTN_Add.Location = new System.Drawing.Point(591, 37);
+            this.BTN_Add.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BTN_Add.Name = "BTN_Add";
-            this.BTN_Add.Size = new System.Drawing.Size(139, 67);
+            this.BTN_Add.Size = new System.Drawing.Size(104, 54);
             this.BTN_Add.TabIndex = 2;
             this.BTN_Add.Text = "Add Client";
             this.BTN_Add.UseVisualStyleBackColor = true;
@@ -115,9 +117,10 @@
             // 
             // BTN_Remove
             // 
-            this.BTN_Remove.Location = new System.Drawing.Point(760, 141);
+            this.BTN_Remove.Location = new System.Drawing.Point(591, 122);
+            this.BTN_Remove.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BTN_Remove.Name = "BTN_Remove";
-            this.BTN_Remove.Size = new System.Drawing.Size(139, 67);
+            this.BTN_Remove.Size = new System.Drawing.Size(104, 54);
             this.BTN_Remove.TabIndex = 3;
             this.BTN_Remove.Text = "Remove Client";
             this.BTN_Remove.UseVisualStyleBackColor = true;
@@ -133,13 +136,14 @@
             // 
             // ClientManager
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.BTN_Remove);
             this.Controls.Add(this.BTN_Add);
             this.Controls.Add(this.DGV_Clients);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ClientManager";
-            this.Size = new System.Drawing.Size(943, 340);
+            this.Size = new System.Drawing.Size(738, 407);
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Clients)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.clientsBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.clientsBindingSource1)).EndInit();

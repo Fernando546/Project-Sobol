@@ -55,12 +55,13 @@
             this.Price,
             this.Type,
             this.Count});
-            this.DGV_Products.Location = new System.Drawing.Point(49, 46);
+            this.DGV_Products.Location = new System.Drawing.Point(37, 37);
+            this.DGV_Products.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.DGV_Products.Name = "DGV_Products";
             this.DGV_Products.ReadOnly = true;
             this.DGV_Products.RowHeadersWidth = 51;
             this.DGV_Products.RowTemplate.Height = 24;
-            this.DGV_Products.Size = new System.Drawing.Size(803, 248);
+            this.DGV_Products.Size = new System.Drawing.Size(602, 202);
             this.DGV_Products.TabIndex = 2;
             // 
             // ID
@@ -113,9 +114,10 @@
             // 
             // BTN_Remove
             // 
-            this.BTN_Remove.Location = new System.Drawing.Point(888, 176);
+            this.BTN_Remove.Location = new System.Drawing.Point(347, 254);
+            this.BTN_Remove.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BTN_Remove.Name = "BTN_Remove";
-            this.BTN_Remove.Size = new System.Drawing.Size(139, 67);
+            this.BTN_Remove.Size = new System.Drawing.Size(104, 54);
             this.BTN_Remove.TabIndex = 6;
             this.BTN_Remove.Text = "Remove Product";
             this.BTN_Remove.UseVisualStyleBackColor = true;
@@ -123,9 +125,10 @@
             // 
             // BTN_Add
             // 
-            this.BTN_Add.Location = new System.Drawing.Point(888, 94);
+            this.BTN_Add.Location = new System.Drawing.Point(226, 254);
+            this.BTN_Add.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BTN_Add.Name = "BTN_Add";
-            this.BTN_Add.Size = new System.Drawing.Size(139, 67);
+            this.BTN_Add.Size = new System.Drawing.Size(104, 54);
             this.BTN_Add.TabIndex = 7;
             this.BTN_Add.Text = "Add Product";
             this.BTN_Add.UseVisualStyleBackColor = true;
@@ -134,26 +137,29 @@
             // CMBX_Contracts
             // 
             this.CMBX_Contracts.FormattingEnabled = true;
-            this.CMBX_Contracts.Location = new System.Drawing.Point(888, 64);
+            this.CMBX_Contracts.Location = new System.Drawing.Point(106, 272);
+            this.CMBX_Contracts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CMBX_Contracts.Name = "CMBX_Contracts";
-            this.CMBX_Contracts.Size = new System.Drawing.Size(139, 24);
+            this.CMBX_Contracts.Size = new System.Drawing.Size(105, 21);
             this.CMBX_Contracts.TabIndex = 8;
             this.CMBX_Contracts.SelectionChangeCommitted += new System.EventHandler(this.CMBX_Contracts_SelectionChangeCommitted);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(885, 45);
+            this.label1.Location = new System.Drawing.Point(104, 257);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 16);
+            this.label1.Size = new System.Drawing.Size(66, 13);
             this.label1.TabIndex = 9;
             this.label1.Text = "Contract List";
             // 
             // BTN_AddProductName
             // 
-            this.BTN_AddProductName.Location = new System.Drawing.Point(888, 249);
+            this.BTN_AddProductName.Location = new System.Drawing.Point(470, 254);
+            this.BTN_AddProductName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BTN_AddProductName.Name = "BTN_AddProductName";
-            this.BTN_AddProductName.Size = new System.Drawing.Size(139, 67);
+            this.BTN_AddProductName.Size = new System.Drawing.Size(104, 54);
             this.BTN_AddProductName.TabIndex = 10;
             this.BTN_AddProductName.Text = "Add Product Name";
             this.BTN_AddProductName.UseVisualStyleBackColor = true;
@@ -161,7 +167,7 @@
             // 
             // ProductManager
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.BTN_AddProductName);
             this.Controls.Add(this.label1);
@@ -169,8 +175,9 @@
             this.Controls.Add(this.BTN_Add);
             this.Controls.Add(this.BTN_Remove);
             this.Controls.Add(this.DGV_Products);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ProductManager";
-            this.Size = new System.Drawing.Size(1070, 340);
+            this.Size = new System.Drawing.Size(738, 407);
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Products)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

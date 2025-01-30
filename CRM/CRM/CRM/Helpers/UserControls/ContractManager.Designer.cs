@@ -62,12 +62,13 @@
             this.FinalProfit,
             this.Signed,
             this.Expires});
-            this.DGV_Contracts.Location = new System.Drawing.Point(55, 44);
+            this.DGV_Contracts.Location = new System.Drawing.Point(41, 36);
+            this.DGV_Contracts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.DGV_Contracts.Name = "DGV_Contracts";
             this.DGV_Contracts.ReadOnly = true;
             this.DGV_Contracts.RowHeadersWidth = 51;
             this.DGV_Contracts.RowTemplate.Height = 24;
-            this.DGV_Contracts.Size = new System.Drawing.Size(1304, 248);
+            this.DGV_Contracts.Size = new System.Drawing.Size(651, 202);
             this.DGV_Contracts.TabIndex = 2;
             // 
             // ID
@@ -152,9 +153,10 @@
             // 
             // BTN_Remove
             // 
-            this.BTN_Remove.Location = new System.Drawing.Point(1401, 225);
+            this.BTN_Remove.Location = new System.Drawing.Point(450, 253);
+            this.BTN_Remove.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BTN_Remove.Name = "BTN_Remove";
-            this.BTN_Remove.Size = new System.Drawing.Size(139, 67);
+            this.BTN_Remove.Size = new System.Drawing.Size(104, 54);
             this.BTN_Remove.TabIndex = 4;
             this.BTN_Remove.Text = "Remove Contract";
             this.BTN_Remove.UseVisualStyleBackColor = true;
@@ -162,9 +164,10 @@
             // 
             // BTN_Add
             // 
-            this.BTN_Add.Location = new System.Drawing.Point(1401, 123);
+            this.BTN_Add.Location = new System.Drawing.Point(322, 253);
+            this.BTN_Add.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BTN_Add.Name = "BTN_Add";
-            this.BTN_Add.Size = new System.Drawing.Size(139, 67);
+            this.BTN_Add.Size = new System.Drawing.Size(104, 54);
             this.BTN_Add.TabIndex = 5;
             this.BTN_Add.Text = "Add Contract";
             this.BTN_Add.UseVisualStyleBackColor = true;
@@ -173,32 +176,35 @@
             // CMBX_Clients
             // 
             this.CMBX_Clients.FormattingEnabled = true;
-            this.CMBX_Clients.Location = new System.Drawing.Point(1401, 65);
+            this.CMBX_Clients.Location = new System.Drawing.Point(191, 271);
+            this.CMBX_Clients.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CMBX_Clients.Name = "CMBX_Clients";
-            this.CMBX_Clients.Size = new System.Drawing.Size(139, 24);
+            this.CMBX_Clients.Size = new System.Drawing.Size(105, 21);
             this.CMBX_Clients.TabIndex = 10;
             this.CMBX_Clients.SelectionChangeCommitted += new System.EventHandler(this.CMBX_Clients_SelectionChangeCommitted);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(1398, 46);
+            this.label1.Location = new System.Drawing.Point(188, 256);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 16);
+            this.label1.Size = new System.Drawing.Size(52, 13);
             this.label1.TabIndex = 11;
             this.label1.Text = "Client List";
             // 
             // ContractManager
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.label1);
             this.Controls.Add(this.CMBX_Clients);
             this.Controls.Add(this.BTN_Add);
             this.Controls.Add(this.BTN_Remove);
             this.Controls.Add(this.DGV_Contracts);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ContractManager";
-            this.Size = new System.Drawing.Size(1590, 340);
+            this.Size = new System.Drawing.Size(738, 407);
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Contracts)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
